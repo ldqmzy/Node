@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-- {name: 馃嚞馃嚙 GB_2488 | 9.94Mb, server: 89.44.201.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 馃嚞馃嚙 GB_2488 | 9.94Mb, server: 89.44.201.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2514 |11.13Mb, server: 81.92.205.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇳🇱 馃嚦馃嚤 NL_3885 |12.94Mb, server: 89.46.223.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2348 |13.91Mb, server: 217.146.82.189, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
