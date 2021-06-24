@@ -92,15 +92,15 @@ proxies:
   - {name: 🇭🇰 馃嚟馃嚢 HK_2722 |34.39Mb, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 馃嚠馃嚜 IE_2894 |13.42Mb, server: 5.157.13.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2212 |10.79Mb, server: 89.238.133.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: HK 香港1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
-  - {name: HK 香港2, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
-  - {name: HK 香港3, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
-  - {name: GB 英国, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
-  - {name: US 美国, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
-  - {name: JP 日本, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
-  - {name: DE 德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
-  - {name: AU 澳大利亚, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
-  - {name: CA 加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇭🇰 香港1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇭🇰 香港2, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇭🇰 香港3, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇬🇧 英国, server: global.ap.fastqvpn.com, port: 29987, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇺🇸 美国, server: global.ap.fastqvpn.com, port: 29988, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇯🇵 日本, server: global.ap.fastqvpn.com, port: 29985, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇩🇪 德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇦🇺 澳大利亚, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇨🇦 加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -198,15 +198,15 @@ proxy-groups:
   - name: 🎈 易建联
     type: select
     proxies:
-      - HK 香港1
-      - HK 香港2
-      - HK 香港3
-      - GB 英国
-      - US 美国
-      - JP 日本
-      - DE 德国
-      - AU 澳大利亚
-      - CA 加拿大
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇬🇧 英国
+      - 🇺🇸 美国
+      - 🇯🇵 日本
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇨🇦 加拿大
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
