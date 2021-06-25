@@ -101,6 +101,7 @@ proxies:
   - {name: 🇩🇪 德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
   - {name: 🇦🇺 澳大利亚, server: global.ap.fastqvpn.com, port: 29982, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
   - {name: 🇨🇦 加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
+  - {name: 🇷🇺 RU_5041 |17.71Mb, server: 92.38.138.143, type: ss, country: 🇷🇺 RU, port: 50168, password: WCuz7yrfZSCQQXSNrtGPz2HT, cipher: aes-256-gcm}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -108,6 +109,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎈 易建联
       - DIRECT
+      - 🇷🇺 RU_5041 |17.71Mb
       - 馃嚞馃嚙 GB_2488 | 9.94Mb
       - 馃嚞馃嚙 GB_2514 |11.13Mb
       - 🇳🇱 馃嚦馃嚤 NL_3885 |12.94Mb
