@@ -7,14 +7,11 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 馃嚞馃嚙 GB_2488 | 9.94Mb, server: 89.44.201.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2514 |11.13Mb, server: 81.92.205.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 馃嚦馃嚤 NL_3885 |12.94Mb, server: 89.46.223.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2348 |13.91Mb, server: 217.146.82.189, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚟馃嚪 HR_2773 |13.38Mb, server: 176.222.34.130, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚠馃嚬 IT_3259 |10.25Mb, server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 馃嚚馃嚘 CA_666 |30.81Mb, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 馃嚞馃嚙 GB_2658 |26.02Mb, server: 185.159.68.24, port: 35003, type: vmess, uuid: d682be0f-70c6-42db-8959-1ec968af3a9a, alterId: 64, cipher: auto, tls: false}
   - {name: 馃嚚馃嚘 CA_726 |10.48Mb, server: 139.28.218.85, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 馃嚠馃嚬 IT_3109 | 7.69Mb, server: 82.102.26.117, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 馃嚞馃嚙 GB_2131 |13.58Mb, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 馃嚠馃嚬 IT_3193 | 9.18Mb, server: 82.102.26.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: 馃嚠馃嚬 IT_3196 |10.51Mb, server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
@@ -28,12 +25,10 @@ proxies:
   - {name: 馃嚞馃嚙 GB_2393 |11.96Mb, server: 81.92.205.101, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2610 |11.26Mb, server: 217.146.82.240, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2625 |15.58Mb, server: 185.134.22.232, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 馃嚞馃嚙 GB_2646 | 8.96Mb, server: 185.134.22.80, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇳🇱 馃嚦馃嚤 NL_3890 |17.70Mb, server: 89.46.223.56, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇫🇷 馃嚝馃嚪 FR_1914 |13.06Mb, server: 185.44.77.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2502 |12.24Mb, server: 217.146.82.236, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2624 | 8.49Mb, server: 185.134.22.253, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 馃嚞馃嚙 GB_2652 |15.38Mb, server: 185.44.78.155, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇳🇱 馃嚦馃嚤 NL_3893 |19.99Mb, server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
   - {name: 馃嚚馃嚘 CA_728 |10.25Mb, server: 86.106.90.27, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2040 |12.04Mb, server: 217.146.82.228, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
@@ -56,9 +51,6 @@ proxies:
   - {name: 馃嚞馃嚙 GB_2587 | 9.82Mb, server: 86.106.136.123, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2650 |10.32Mb, server: 86.106.136.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚟馃嚪 HR_2796 | 8.03Mb, server: 176.222.34.132, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 馃嚠馃嚬 IT_3103 | 9.66Mb, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 馃嚠馃嚬 IT_3122 |10.65Mb, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 馃嚠馃嚬 IT_3133 | 9.60Mb, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚠馃嚬 IT_3265 |10.80Mb, server: 84.17.58.197, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚚馃嚘 CA_725 |11.53Mb, server: 37.120.205.93, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2538 |11.80Mb, server: 146.70.27.43, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
@@ -89,7 +81,6 @@ proxies:
   - {name: 馃嚞馃嚙 GB_2198 |10.02Mb, server: 37.120.200.91, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2217 |12.18Mb, server: 217.138.196.203, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2555 |12.09Mb, server: 89.44.201.51, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇭🇰 馃嚟馃嚢 HK_2722 |34.39Mb, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 馃嚠馃嚜 IE_2894 |13.42Mb, server: 5.157.13.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 馃嚞馃嚙 GB_2212 |10.79Mb, server: 89.238.133.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇭🇰 香港1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 460551996206747648, password: 3312ee3f-7d0a-428d-aef1-39f1aedd69b3, tls: true}
@@ -112,14 +103,11 @@ proxy-groups:
       - 🇷🇺 RU_5041 |17.71Mb
       - 馃嚞馃嚙 GB_2488 | 9.94Mb
       - 馃嚞馃嚙 GB_2514 |11.13Mb
-      - 🇳🇱 馃嚦馃嚤 NL_3885 |12.94Mb
       - 馃嚞馃嚙 GB_2348 |13.91Mb
       - 馃嚟馃嚪 HR_2773 |13.38Mb
       - 馃嚠馃嚬 IT_3259 |10.25Mb
-      - 馃嚚馃嚘 CA_666 |30.81Mb
       - 馃嚞馃嚙 GB_2658 |26.02Mb
       - 馃嚚馃嚘 CA_726 |10.48Mb
-      - 馃嚠馃嚬 IT_3109 | 7.69Mb
       - 馃嚞馃嚙 GB_2131 |13.58Mb
       - 馃嚠馃嚬 IT_3193 | 9.18Mb
       - 馃嚠馃嚬 IT_3196 |10.51Mb
@@ -133,12 +121,10 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2393 |11.96Mb
       - 馃嚞馃嚙 GB_2610 |11.26Mb
       - 馃嚞馃嚙 GB_2625 |15.58Mb
-      - 馃嚞馃嚙 GB_2646 | 8.96Mb
       - 🇳🇱 馃嚦馃嚤 NL_3890 |17.70Mb
       - 🇫🇷 馃嚝馃嚪 FR_1914 |13.06Mb
       - 馃嚞馃嚙 GB_2502 |12.24Mb
       - 馃嚞馃嚙 GB_2624 | 8.49Mb
-      - 馃嚞馃嚙 GB_2652 |15.38Mb
       - 🇳🇱 馃嚦馃嚤 NL_3893 |19.99Mb
       - 馃嚚馃嚘 CA_728 |10.25Mb
       - 馃嚞馃嚙 GB_2040 |12.04Mb
@@ -161,9 +147,6 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2587 | 9.82Mb
       - 馃嚞馃嚙 GB_2650 |10.32Mb
       - 馃嚟馃嚪 HR_2796 | 8.03Mb
-      - 馃嚠馃嚬 IT_3103 | 9.66Mb
-      - 馃嚠馃嚬 IT_3122 |10.65Mb
-      - 馃嚠馃嚬 IT_3133 | 9.60Mb
       - 馃嚠馃嚬 IT_3265 |10.80Mb
       - 馃嚚馃嚘 CA_725 |11.53Mb
       - 馃嚞馃嚙 GB_2538 |11.80Mb
@@ -194,7 +177,6 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2198 |10.02Mb
       - 馃嚞馃嚙 GB_2217 |12.18Mb
       - 馃嚞馃嚙 GB_2555 |12.09Mb
-      - 🇭🇰 馃嚟馃嚢 HK_2722 |34.39Mb
       - 馃嚠馃嚜 IE_2894 |13.42Mb
       - 馃嚞馃嚙 GB_2212 |10.79Mb
   - name: 🎈 易建联
@@ -217,14 +199,11 @@ proxy-groups:
     proxies:
       - 馃嚞馃嚙 GB_2488 | 9.94Mb
       - 馃嚞馃嚙 GB_2514 |11.13Mb
-      - 🇳🇱 馃嚦馃嚤 NL_3885 |12.94Mb
       - 馃嚞馃嚙 GB_2348 |13.91Mb
       - 馃嚟馃嚪 HR_2773 |13.38Mb
       - 馃嚠馃嚬 IT_3259 |10.25Mb
-      - 馃嚚馃嚘 CA_666 |30.81Mb
       - 馃嚞馃嚙 GB_2658 |26.02Mb
       - 馃嚚馃嚘 CA_726 |10.48Mb
-      - 馃嚠馃嚬 IT_3109 | 7.69Mb
       - 馃嚞馃嚙 GB_2131 |13.58Mb
       - 馃嚠馃嚬 IT_3193 | 9.18Mb
       - 馃嚠馃嚬 IT_3196 |10.51Mb
@@ -238,12 +217,10 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2393 |11.96Mb
       - 馃嚞馃嚙 GB_2610 |11.26Mb
       - 馃嚞馃嚙 GB_2625 |15.58Mb
-      - 馃嚞馃嚙 GB_2646 | 8.96Mb
       - 🇳🇱 馃嚦馃嚤 NL_3890 |17.70Mb
       - 🇫🇷 馃嚝馃嚪 FR_1914 |13.06Mb
       - 馃嚞馃嚙 GB_2502 |12.24Mb
       - 馃嚞馃嚙 GB_2624 | 8.49Mb
-      - 馃嚞馃嚙 GB_2652 |15.38Mb
       - 🇳🇱 馃嚦馃嚤 NL_3893 |19.99Mb
       - 馃嚚馃嚘 CA_728 |10.25Mb
       - 馃嚞馃嚙 GB_2040 |12.04Mb
@@ -266,9 +243,6 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2587 | 9.82Mb
       - 馃嚞馃嚙 GB_2650 |10.32Mb
       - 馃嚟馃嚪 HR_2796 | 8.03Mb
-      - 馃嚠馃嚬 IT_3103 | 9.66Mb
-      - 馃嚠馃嚬 IT_3122 |10.65Mb
-      - 馃嚠馃嚬 IT_3133 | 9.60Mb
       - 馃嚠馃嚬 IT_3265 |10.80Mb
       - 馃嚚馃嚘 CA_725 |11.53Mb
       - 馃嚞馃嚙 GB_2538 |11.80Mb
@@ -299,7 +273,6 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2198 |10.02Mb
       - 馃嚞馃嚙 GB_2217 |12.18Mb
       - 馃嚞馃嚙 GB_2555 |12.09Mb
-      - 🇭🇰 馃嚟馃嚢 HK_2722 |34.39Mb
       - 馃嚠馃嚜 IE_2894 |13.42Mb
       - 馃嚞馃嚙 GB_2212 |10.79Mb
   - name: 🎯 全球直连
@@ -323,14 +296,11 @@ proxy-groups:
       - 🎈 易建联
       - 馃嚞馃嚙 GB_2488 | 9.94Mb
       - 馃嚞馃嚙 GB_2514 |11.13Mb
-      - 🇳🇱 馃嚦馃嚤 NL_3885 |12.94Mb
       - 馃嚞馃嚙 GB_2348 |13.91Mb
       - 馃嚟馃嚪 HR_2773 |13.38Mb
       - 馃嚠馃嚬 IT_3259 |10.25Mb
-      - 馃嚚馃嚘 CA_666 |30.81Mb
       - 馃嚞馃嚙 GB_2658 |26.02Mb
       - 馃嚚馃嚘 CA_726 |10.48Mb
-      - 馃嚠馃嚬 IT_3109 | 7.69Mb
       - 馃嚞馃嚙 GB_2131 |13.58Mb
       - 馃嚠馃嚬 IT_3193 | 9.18Mb
       - 馃嚠馃嚬 IT_3196 |10.51Mb
@@ -344,12 +314,10 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2393 |11.96Mb
       - 馃嚞馃嚙 GB_2610 |11.26Mb
       - 馃嚞馃嚙 GB_2625 |15.58Mb
-      - 馃嚞馃嚙 GB_2646 | 8.96Mb
       - 🇳🇱 馃嚦馃嚤 NL_3890 |17.70Mb
       - 🇫🇷 馃嚝馃嚪 FR_1914 |13.06Mb
       - 馃嚞馃嚙 GB_2502 |12.24Mb
       - 馃嚞馃嚙 GB_2624 | 8.49Mb
-      - 馃嚞馃嚙 GB_2652 |15.38Mb
       - 🇳🇱 馃嚦馃嚤 NL_3893 |19.99Mb
       - 馃嚚馃嚘 CA_728 |10.25Mb
       - 馃嚞馃嚙 GB_2040 |12.04Mb
@@ -372,9 +340,6 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2587 | 9.82Mb
       - 馃嚞馃嚙 GB_2650 |10.32Mb
       - 馃嚟馃嚪 HR_2796 | 8.03Mb
-      - 馃嚠馃嚬 IT_3103 | 9.66Mb
-      - 馃嚠馃嚬 IT_3122 |10.65Mb
-      - 馃嚠馃嚬 IT_3133 | 9.60Mb
       - 馃嚠馃嚬 IT_3265 |10.80Mb
       - 馃嚚馃嚘 CA_725 |11.53Mb
       - 馃嚞馃嚙 GB_2538 |11.80Mb
@@ -405,7 +370,6 @@ proxy-groups:
       - 馃嚞馃嚙 GB_2198 |10.02Mb
       - 馃嚞馃嚙 GB_2217 |12.18Mb
       - 馃嚞馃嚙 GB_2555 |12.09Mb
-      - 🇭🇰 馃嚟馃嚢 HK_2722 |34.39Mb
       - 馃嚠馃嚜 IE_2894 |13.42Mb
       - 馃嚞馃嚙 GB_2212 |10.79Mb
 rules:
