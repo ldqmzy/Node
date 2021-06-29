@@ -13,37 +13,26 @@ proxies:
   - {name: 🇩🇪 德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
   - {name: 🇦🇺 澳大利亚, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
   - {name: 🇨🇦 加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
-  - {name: 🇬🇧 英国_2216 |11.51Mb, server: 217.138.196.205, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国_2577 |11.58Mb, server: 89.238.138.235, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国_2644 | 9.17Mb, server: 81.92.205.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国_2462 | 7.56Mb, server: 81.92.205.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇹 意大利_3193 | 9.18Mb, server: 82.102.26.117, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇬🇧 英国_2616 |11.08Mb, server: 45.83.88.67, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇨🇿 捷克_970 |11.75Mb, server: 217.138.220.181, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇫🇷 法国_1914 |13.06Mb, server: 185.44.77.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇳🇱 荷兰_3891 |12.42Mb, server: 89.46.223.62, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国_2514 |11.13Mb, server: 81.92.205.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇭🇰 香港*, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇬🇧 英国*, server: global.ap.fastqvpn.com, port: 29987, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇺🇸 美国*, server: global.ap.fastqvpn.com, port: 29988, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇯🇵 日本*, server: global.ap.fastqvpn.com, port: 29985, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇩🇪 德国*, server: global.ap.fastqvpn.com, port: 29984, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇦🇺 澳大利亚*, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇨🇦 加拿大*, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇺🇸, server: 107.148.248.137, port: 443, type: vmess, uuid: 0186482c-d3a3-4f5c-a48b-b1f1f8e82948, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.04354214.xyz}}
+  - {name: 🇭🇰, server: 45.147.24.130, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.83539249.xyz}}
+  - {name: 🇯🇵, server: 45.116.14.4, port: 443, type: vmess, uuid: 6e8ecf0d-3126-43c2-b463-9b5335e98924, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.23084597.xyz}}
+  - {name: 🇯🇵 *, server: 213.139.232.213, port: 443, type: vmess, uuid: 855545d6-e13b-45cb-b005-ba3f06c8bd20, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.57208131.xyz}}
+  - {name: 🇰🇷, server: 27.124.8.141, port: 443, type: vmess, uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.66039666.xyz}}
+  - {name: 🇰🇷 *, server: 27.124.8.241, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd23, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.04965115.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🎈 易建联
       - DIRECT
       - 无限
-      - 🇬🇧 英国_2216 |11.51Mb
-      - 🇬🇧 英国_2577 |11.58Mb
-      - 🇬🇧 英国_2644 | 9.17Mb
-      - 🇬🇧 英国_2462 | 7.56Mb
-      - 🇮🇹 意大利_3193 | 9.18Mb
-      - 🇬🇧 英国_2616 |11.08Mb
-      - 🇨🇿 捷克_970 |11.75Mb
-      - 🇫🇷 法国_1914 |13.06Mb
-      - 🇳🇱 荷兰_3891 |12.42Mb
-      - 🇬🇧 英国_2514 |11.13Mb
-  - name: 🎈 易建联
-    type: select
-    proxies:
       - 🇭🇰 香港
       - 🇬🇧 英国
       - 🇺🇸 美国
@@ -51,29 +40,52 @@ proxy-groups:
       - 🇩🇪 德国
       - 🇦🇺 澳大利亚
       - 🇨🇦 加拿大
+      - 🇭🇰 香港*
+      - 🇬🇧 英国*
+      - 🇺🇸 美国*
+      - 🇯🇵 日本*
+      - 🇩🇪 德国*
+      - 🇦🇺 澳大利亚*
+      - 🇨🇦 加拿大*
+      - 🇺🇸 
+      - 🇭🇰
+      - 🇯🇵
+      - 🇯🇵 *
+      - 🇰🇷
+      - 🇰🇷 *
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧 英国_2216 |11.51Mb
-      - 🇬🇧 英国_2577 |11.58Mb
-      - 🇬🇧 英国_2644 | 9.17Mb
-      - 🇬🇧 英国_2462 | 7.56Mb
-      - 🇮🇹 意大利_3193 | 9.18Mb
-      - 🇬🇧 英国_2616 |11.08Mb
-      - 🇨🇿 捷克_970 |11.75Mb
-      - 🇫🇷 法国_1914 |13.06Mb
-      - 🇳🇱 荷兰_3891 |12.42Mb
-      - 🇬🇧 英国_2514 |11.13Mb
+      - 无限
+      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇺🇸 美国
+      - 🇯🇵 日本
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇨🇦 加拿大
+      - 🇭🇰 香港*
+      - 🇬🇧 英国*
+      - 🇺🇸 美国*
+      - 🇯🇵 日本*
+      - 🇩🇪 德国*
+      - 🇦🇺 澳大利亚*
+      - 🇨🇦 加拿大*
+      - 🇺🇸 
+      - 🇭🇰
+      - 🇯🇵
+      - 🇯🇵 *
+      - 🇰🇷
+      - 🇰🇷 *
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🎈 易建联
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -85,17 +97,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🎈 易建联
-      - 🇬🇧 英国_2216 |11.51Mb
-      - 🇬🇧 英国_2577 |11.58Mb
-      - 🇬🇧 英国_2644 | 9.17Mb
-      - 🇬🇧 英国_2462 | 7.56Mb
-      - 🇮🇹 意大利_3193 | 9.18Mb
-      - 🇬🇧 英国_2616 |11.08Mb
-      - 🇨🇿 捷克_970 |11.75Mb
-      - 🇫🇷 法国_1914 |13.06Mb
-      - 🇳🇱 荷兰_3891 |12.42Mb
-      - 🇬🇧 英国_2514 |11.13Mb
+      - 无限
+      - 🇭🇰 香港
+      - 🇬🇧 英国
+      - 🇺🇸 美国
+      - 🇯🇵 日本
+      - 🇩🇪 德国
+      - 🇦🇺 澳大利亚
+      - 🇨🇦 加拿大
+      - 🇭🇰 香港*
+      - 🇬🇧 英国*
+      - 🇺🇸 美国*
+      - 🇯🇵 日本*
+      - 🇩🇪 德国*
+      - 🇦🇺 澳大利亚*
+      - 🇨🇦 加拿大*
+      - 🇺🇸 
+      - 🇭🇰
+      - 🇯🇵
+      - 🇯🇵 *
+      - 🇰🇷
+      - 🇰🇷 *
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
