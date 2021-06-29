@@ -13,13 +13,13 @@ proxies:
   - {name: 🇩🇪 德国, server: global.ap.fastqvpn.com, port: 29984, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
   - {name: 🇦🇺 澳大利亚, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
   - {name: 🇨🇦 加拿大, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
-  - {name: 🇭🇰 香港*, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
-  - {name: 🇬🇧 英国*, server: global.ap.fastqvpn.com, port: 29987, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
-  - {name: 🇺🇸 美国*, server: global.ap.fastqvpn.com, port: 29988, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
-  - {name: 🇯🇵 日本*, server: global.ap.fastqvpn.com, port: 29985, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
-  - {name: 🇩🇪 德国*, server: global.ap.fastqvpn.com, port: 29984, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
-  - {name: 🇦🇺 澳大利亚*, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
-  - {name: 🇨🇦 加拿大*, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "460551996206747648", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇭🇰 香港*, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇬🇧 英国*, server: global.ap.fastqvpn.com, port: 29987, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇺🇸 美国*, server: global.ap.fastqvpn.com, port: 29988, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇯🇵 日本*, server: global.ap.fastqvpn.com, port: 29985, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇩🇪 德国*, server: global.ap.fastqvpn.com, port: 29984, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇦🇺 澳大利亚*, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
+  - {name: 🇨🇦 加拿大*, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true}
   - {name: 🇺🇸, server: 107.148.248.137, port: 443, type: vmess, uuid: 0186482c-d3a3-4f5c-a48b-b1f1f8e82948, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.04354214.xyz}}
   - {name: 🇭🇰, server: 45.147.24.130, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.83539249.xyz}}
   - {name: 🇯🇵, server: 45.116.14.4, port: 443, type: vmess, uuid: 6e8ecf0d-3126-43c2-b463-9b5335e98924, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.23084597.xyz}}
