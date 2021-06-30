@@ -27,26 +27,6 @@ proxies:
   - {name: 🇰🇷, server: 27.124.8.141, port: 443, type: vmess, uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.66039666.xyz}}
   - {name: 🇰🇷 *, server: 27.124.8.241, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd23, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.04965115.xyz}}
   - {name: 🇨🇳 台湾, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: "🇨🇳 NB云|-香港 ③ [5-20台均衡]", server: hk033.bp666.xyz, port: 30013, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk003.bp666.xyz}}
-  - {name: "🇸🇬 NB云|-新加坡 ⑤ [5-10台均衡]", server: hk060.bp666.xyz, port: 30040, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk030.bp666.xyz}}
-  - {name: "🇸🇬 NB云|-新加坡 ② [5-10台均衡]", server: hk057.bp666.xyz, port: 30037, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk027.bp666.xyz}}
-  - {name: "🇸🇬 NB云|-新加坡 ③ [5-10台均衡]", server: hk058.bp666.xyz, port: 30038, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk028.bp666.xyz}}
-  - {name: "🇺🇸 NB云|-美国 ③ [5-10台均衡]", server: hk053.bp666.xyz, port: 30033, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk023.bp666.xyz}}
-  - {name: "🇺🇸 NB云|-美国 ② [5-10台均衡]", server: hk052.bp666.xyz, port: 30032, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk022.bp666.xyz}}
-  - {name: "🇺🇸 NB云|-美国 ① [5-10台均衡]", server: hk051.bp666.xyz, port: 30031, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk021.bp666.xyz}}
-  - {name: "🇯🇵 NB云|-日本 ⑤ [3-10台均衡]", server: hk045.bp666.xyz, port: 30025, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk015.bp666.xyz}}
-  - {name: "🇨🇳 NB云|-香港 ⑨ [5-20台均衡]", server: hk039.bp666.xyz, port: 30019, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk009.bp666.xyz}}
-  - {name: "🇨🇳 NB云|-香港 ⑩ [5-20台均衡]", server: hk040.bp666.xyz, port: 30020, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk010.bp666.xyz}}
-  - {name: "🇯🇵 NB云|-日本 ② [3-10台均衡]", server: hk042.bp666.xyz, port: 30022, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk012.bp666.xyz}}
-  - {name: "🇨🇳 NB云|-香港 ⑦ [5-20台均衡]", server: hk037.bp666.xyz, port: 30017, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk007.bp666.xyz}}
-  - {name: "🇰🇷 NB云|-韩国 ⑤ [3-10台均衡]", server: hk050.bp666.xyz, port: 30030, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk020.bp666.xyz}}
-  - {name: "🇯🇵 NB云|-日本 ③ [3-10台均衡]", server: hk043.bp666.xyz, port: 30023, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk013.bp666.xyz}}
-  - {name: "🇰🇷 NB云|-韩国 ④ [3-10台均衡]", server: hk049.bp666.xyz, port: 30029, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk019.bp666.xyz}}
-  - {name: "🇨🇳 NB云|-香港 ⑧ [5-20台均衡]", server: hk038.bp666.xyz, port: 30018, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk008.bp666.xyz}}
-  - {name: "🇰🇷 NB云|-韩国 ② [3-10台均衡]", server: hk047.bp666.xyz, port: 30027, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk017.bp666.xyz}}
-  - {name: "🇰🇷 NB云|-韩国 ① [3-10台均衡]", server: hk046.bp666.xyz, port: 30026, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk016.bp666.xyz}}
-  - {name: "🇯🇵 NB云|-日本 ④ [3-10台均衡]", server: hk044.bp666.xyz, port: 30024, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk014.bp666.xyz}}
-  - {name: "🇺🇸 NB云|-美国 ④ [5-10台均衡]", server: hk054.bp666.xyz, port: 30034, type: vmess, uuid: 0612796d-1223-4b70-8b7d-ff6970ed438f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /user/download.m3u8, ws-headers: {Host: hk024.bp666.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -75,26 +55,6 @@ proxy-groups:
       - 🇰🇷
       - 🇰🇷 *
       - 🇨🇳 台湾
-      - 🇨🇳 NB云|-香港 ③ [5-20台均衡]
-      - 🇸🇬 NB云|-新加坡 ⑤ [5-10台均衡]
-      - 🇸🇬 NB云|-新加坡 ② [5-10台均衡]
-      - 🇸🇬 NB云|-新加坡 ③ [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ③ [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ② [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ① [5-10台均衡]
-      - 🇯🇵 NB云|-日本 ⑤ [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑨ [5-20台均衡]
-      - 🇨🇳 NB云|-香港 ⑩ [5-20台均衡]
-      - 🇯🇵 NB云|-日本 ② [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑦ [5-20台均衡]
-      - 🇰🇷 NB云|-韩国 ⑤ [3-10台均衡]
-      - 🇯🇵 NB云|-日本 ③ [3-10台均衡]
-      - 🇰🇷 NB云|-韩国 ④ [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑧ [5-20台均衡]
-      - 🇰🇷 NB云|-韩国 ② [3-10台均衡]
-      - 🇰🇷 NB云|-韩国 ① [3-10台均衡]
-      - 🇯🇵 NB云|-日本 ④ [3-10台均衡]
-      - 🇺🇸 NB云|-美国 ④ [5-10台均衡]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -122,26 +82,7 @@ proxy-groups:
       - 🇯🇵 *
       - 🇰🇷
       - 🇰🇷 *
-      - 🇨🇳 NB云|-香港 ③ [5-20台均衡]
-      - 🇸🇬 NB云|-新加坡 ⑤ [5-10台均衡]
-      - 🇸🇬 NB云|-新加坡 ② [5-10台均衡]
-      - 🇸🇬 NB云|-新加坡 ③ [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ③ [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ② [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ① [5-10台均衡]
-      - 🇯🇵 NB云|-日本 ⑤ [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑨ [5-20台均衡]
-      - 🇨🇳 NB云|-香港 ⑩ [5-20台均衡]
-      - 🇯🇵 NB云|-日本 ② [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑦ [5-20台均衡]
-      - 🇰🇷 NB云|-韩国 ⑤ [3-10台均衡]
-      - 🇯🇵 NB云|-日本 ③ [3-10台均衡]
-      - 🇰🇷 NB云|-韩国 ④ [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑧ [5-20台均衡]
-      - 🇰🇷 NB云|-韩国 ② [3-10台均衡]
-      - 🇰🇷 NB云|-韩国 ① [3-10台均衡]
-      - 🇯🇵 NB云|-日本 ④ [3-10台均衡]
-      - 🇺🇸 NB云|-美国 ④ [5-10台均衡]
+      - 🇨🇳 台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,26 +121,7 @@ proxy-groups:
       - 🇯🇵 *
       - 🇰🇷
       - 🇰🇷 *
-      - 🇨🇳 NB云|-香港 ③ [5-20台均衡]
-      - 🇸🇬 NB云|-新加坡 ⑤ [5-10台均衡]
-      - 🇸🇬 NB云|-新加坡 ② [5-10台均衡]
-      - 🇸🇬 NB云|-新加坡 ③ [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ③ [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ② [5-10台均衡]
-      - 🇺🇸 NB云|-美国 ① [5-10台均衡]
-      - 🇯🇵 NB云|-日本 ⑤ [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑨ [5-20台均衡]
-      - 🇨🇳 NB云|-香港 ⑩ [5-20台均衡]
-      - 🇯🇵 NB云|-日本 ② [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑦ [5-20台均衡]
-      - 🇰🇷 NB云|-韩国 ⑤ [3-10台均衡]
-      - 🇯🇵 NB云|-日本 ③ [3-10台均衡]
-      - 🇰🇷 NB云|-韩国 ④ [3-10台均衡]
-      - 🇨🇳 NB云|-香港 ⑧ [5-20台均衡]
-      - 🇰🇷 NB云|-韩国 ② [3-10台均衡]
-      - 🇰🇷 NB云|-韩国 ① [3-10台均衡]
-      - 🇯🇵 NB云|-日本 ④ [3-10台均衡]
-      - 🇺🇸 NB云|-美国 ④ [5-10台均衡]
+      - 🇨🇳 台湾
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
