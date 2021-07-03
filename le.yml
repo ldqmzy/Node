@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 无限, server: www.freeyule.ml, port: 8388, type: ss, cipher: aes-256-cfb, password: tg@freeyule!}
+  - {name: 无限, server: www.freeyule.ml, port: 443, type: ss, cipher: aes-256-cfb, password: tg@freeyule!}
   - {name: 🇭🇰 香港, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
   - {name: 🇬🇧 英国, server: global.ap.fastqvpn.com, port: 29987, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
   - {name: 🇺🇸 美国, server: global.ap.fastqvpn.com, port: 29988, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true}
