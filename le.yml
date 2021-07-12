@@ -5,47 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: heroku, server: old-hat-17dd.l6688e.workers.dev, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: old-hat-17dd.l6688e.workers.dev}}
-  - {name: 🇨🇳 台湾, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: 🇭🇰 香港②, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡②, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true, skip-cert-verify: false}
-  - {name: 🇦🇺 澳大利亚②, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大②, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true, skip-cert-verify: true}
-  - {name: 🇩🇪 德国②, server: global.ap.fastqvpn.com, port: 29984, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 日本②, server: global.ap.fastqvpn.com, port: 29985, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 英国②, server: global.ap.fastqvpn.com, port: 29987, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国②, server: global.ap.fastqvpn.com, port: 29988, type: http, username: "460551996206747648", password: 9744f9fd-2be4-47e3-9acc-391a83bc073c, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 香港①, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡①, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true, skip-cert-verify: false}
-  - {name: 🇦🇺 澳大利亚①, server: global.ap.fastqvpn.com, port: 29982, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大①, server: global.ap.fastqvpn.com, port: 29983, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true, skip-cert-verify: true}
-  - {name: 🇩🇪 德国①, server: global.ap.fastqvpn.com, port: 29984, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true, skip-cert-verify: true}
-  - {name: 🇯🇵 日本①, server: global.ap.fastqvpn.com, port: 29985, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true, skip-cert-verify: true}
-  - {name: 🇬🇧 英国①, server: global.ap.fastqvpn.com, port: 29987, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国①, server: global.ap.fastqvpn.com, port: 29988, type: http, username: "462040372491587584", password: df8246fc-2b6d-474c-bf3d-8fbe1e52aec7, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡, server: 149.28.157.115, port: 55990, type: vmess, uuid: 555971d2-c4f7-45a3-bf51-f1c1c227348c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /baipiaofuli, ws-headers: {Host: baidu.com}}
+  - {name: 🇯🇵 日本, server: 52.194.183.116, port: 25562, type: vmess, uuid: d0a7af7f-0085-40e7-ac16-69358492bf61, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /baipiaofuli, ws-headers: {Host: microsoft.com}}
+  - {name: NONE, server: jpjs6o.zhs.company, port: 443, type: trojan, password: 60665a07-09d5-3505-9bd4-c09d02fe46b8, sni: jpjs6o.zhs.company}
+  - {name: 🇰🇷 韩国-01, server: superstar.srayx.xyz, port: 27401, type: vmess, uuid: 5bf44695-239c-480f-8dae-3bfe326b650c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}}
+  - {name: 🇭🇰 hk, server: 18.167.90.100, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: fr, server: 51.195.62.220, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - heroku
-      - 🇨🇳 台湾
-      - 🇭🇰 香港①
-      - 🇸🇬 新加坡①
-      - 🇦🇺 澳大利亚①
-      - 🇨🇦 加拿大①
-      - 🇩🇪 德国①
-      - 🇯🇵 日本①
-      - 🇬🇧 英国①
-      - 🇺🇸 美国①
-      - 🇭🇰 香港②
-      - 🇸🇬 新加坡②
-      - 🇦🇺 澳大利亚②
-      - 🇨🇦 加拿大②
-      - 🇩🇪 德国②
-      - 🇯🇵 日本②
-      - 🇬🇧 英国②
-      - 🇺🇸 美国②
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - NONE
+      - 🇰🇷 韩国-01
+      - 🇭🇰 hk
+      - fr
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -8084,4 +8060,3 @@ rules:
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
  - GEOIP,CN,🎯 全球直连
- - MATCH,🐟 漏网之鱼
