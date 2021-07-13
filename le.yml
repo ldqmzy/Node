@@ -14,7 +14,6 @@ proxies:
   - {name: 🇨🇳 CN_80, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
   - {name: 🇨🇳 CN_86, server: 58.62.84.73, port: 10086, type: ssr, cipher: aes-256-cfb, password: !<str> 2333, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇨🇳 CN_83, server: 117.28.243.246, port: 8333, type: ssr, cipher: rc4-md5, password: passfw2xs4e!, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇨🇳 CN_86, server: 58.62.84.73, port: 10086, type: ssr, cipher: aes-256-cfb, password: !<str> 2333, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇨🇳 CN_93, server: 183.236.57.25, port: 3389, type: trojan, password: 1910c83debd71218, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN_94, server: 120.236.197.205, port: 3389, type: trojan, password: 1910c83debd71218, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN_97, server: 183.236.57.25, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: true, udp: true}
