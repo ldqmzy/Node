@@ -11,6 +11,15 @@ proxies:
   - {name: 🇰🇷 韩国-01, server: superstar.srayx.xyz, port: 27401, type: vmess, uuid: 5bf44695-239c-480f-8dae-3bfe326b650c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}}
   - {name: 🇭🇰 hk, server: 18.167.90.100, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
   - {name: fr, server: 51.195.62.220, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇳 CN_80, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: 🇨🇳 CN_86, server: 58.62.84.73, port: 10086, type: ssr, cipher: aes-256-cfb, password: !<str> 2333, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇨🇳 CN_83, server: 117.28.243.246, port: 8333, type: ssr, cipher: rc4-md5, password: passfw2xs4e!, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇨🇳 CN_86, server: 58.62.84.73, port: 10086, type: ssr, cipher: aes-256-cfb, password: !<str> 2333, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇨🇳 CN_93, server: 183.236.57.25, port: 3389, type: trojan, password: 1910c83debd71218, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN_94, server: 120.236.197.205, port: 3389, type: trojan, password: 1910c83debd71218, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN_97, server: 183.236.57.25, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK_364, server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 HK_368, server: kaizen-hk-2.cn0.me, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,6 +31,15 @@ proxy-groups:
       - 🇰🇷 韩国-01
       - 🇭🇰 hk
       - fr
+      - 🇨🇳 CN_80
+      - 🇨🇳 CN_82
+      - 🇨🇳 CN_83
+      - 🇨🇳 CN_86
+      - 🇨🇳 CN_93
+      - 🇨🇳 CN_94
+      - 🇨🇳 CN_97
+      - 🇭🇰 HK_364
+      - 🇭🇰 HK_364
   - name: 🎯 全球直连
     type: select
     proxies:
