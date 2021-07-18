@@ -5,39 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡, server: 149.28.157.115, port: 55990, type: vmess, uuid: 555971d2-c4f7-45a3-bf51-f1c1c227348c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /baipiaofuli, ws-headers: {Host: baidu.com}}
-  - {name: 🇯🇵 日本, server: 52.194.183.116, port: 25562, type: vmess, uuid: d0a7af7f-0085-40e7-ac16-69358492bf61, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /baipiaofuli, ws-headers: {Host: microsoft.com}}
-  - {name: NONE, server: jpjs6o.zhs.company, port: 443, type: trojan, password: 60665a07-09d5-3505-9bd4-c09d02fe46b8, sni: jpjs6o.zhs.company}
-  - {name: 🇰🇷 韩国-01, server: superstar.srayx.xyz, port: 27401, type: vmess, uuid: 5bf44695-239c-480f-8dae-3bfe326b650c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}}
-  - {name: 🇭🇰 hk, server: 18.167.90.100, port: 20430, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: fr, server: 51.195.62.220, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 CN_80, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🇨🇳 CN_86, server: 58.62.84.73, port: 10086, type: ssr, cipher: aes-256-cfb, password: !<str> 2333, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇨🇳 CN_83, server: 117.28.243.246, port: 8333, type: ssr, cipher: rc4-md5, password: passfw2xs4e!, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇨🇳 CN_93, server: 183.236.57.25, port: 3389, type: trojan, password: 1910c83debd71218, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN_94, server: 120.236.197.205, port: 3389, type: trojan, password: 1910c83debd71218, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN_97, server: 183.236.57.25, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK_364, server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇭🇰 HK_368, server: kaizen-hk-2.cn0.me, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
+  - {name: jgw1, server: 132.226.22.43, port: 8080, type: vmess, uuid: ac9ca68b-f65a-40c1-bed4-1ac8828b471b, alterId: 64, cipher: auto, tls: false}
+  - {name: jgw2, server: 132.226.17.214, port: 8080, type: vmess, uuid: 7509e707-c58c-4f54-8b7a-7e8b30bf5d31, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - jgw1
+      - jgw2
       - DIRECT
-      - 🇸🇬 新加坡
-      - 🇯🇵 日本
-      - NONE
-      - 🇰🇷 韩国-01
-      - 🇭🇰 hk
-      - fr
-      - 🇨🇳 CN_80
-      - 🇨🇳 CN_83
-      - 🇨🇳 CN_86
-      - 🇨🇳 CN_93
-      - 🇨🇳 CN_94
-      - 🇨🇳 CN_97
-      - 🇭🇰 HK_364
-      - 🇭🇰 HK_364
   - name: 🎯 全球直连
     type: select
     proxies:
