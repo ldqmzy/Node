@@ -5,15 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: jgw1, server: 132.226.22.43, port: 8080, type: vmess, uuid: ac9ca68b-f65a-40c1-bed4-1ac8828b471b, alterId: 64, cipher: auto, tls: false}
-  - {name: jgw2, server: 132.226.17.214, port: 8080, type: vmess, uuid: 7509e707-c58c-4f54-8b7a-7e8b30bf5d31, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 45218443.xyz}}
+  - {name: 🇺🇸 美国 2, server: 144.34.184.123, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇺🇸 美国 3, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 🇸🇬 新加坡, server: 18.136.100.90, port: 22255, type: vmess, uuid: 5acc302e-4559-45e3-d2bd-e716000cdd9c, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - jgw1
-      - jgw2
       - DIRECT
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇺🇸 美国 3
+      - 🇸🇬 新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
