@@ -15,6 +15,93 @@ proxies:
   - {name: 🇺🇸 美国 2, server: 144.34.184.123, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
   - {name: 🇺🇸 美国 3, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
   - {name: 🇸🇬 新加坡, server: 18.136.100.90, port: 22255, type: vmess, uuid: 5acc302e-4559-45e3-d2bd-e716000cdd9c, alterId: 64, cipher: auto, tls: false}
+  - {name: 破解软件、VPN翻墙、节点订阅、福利软件、成人音声, server: https://t.me/fuckappcatannouncement, port: 443, type: vmess, uuid: 001, alterId: 0, cipher: auto, tls: false}
+  - {name: ★更多破解软件与节点订阅加入以下电报群, server: fuckappcat, port: 9999, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★电报群：@fuckappcatannouncement, server: fuckappcat, port: 9999, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★极客启程★_______1, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: ★极客启程★_______2, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: ★极客启程★_______3, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: ★极客启程★_______5, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: ★极客启程★_______6, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: ★极客启程★_______7, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★极客启程★_______8, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: ★极客启程★_______9, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ★极客启程★_______10, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: ★极客启程★_______11, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: ★极客启程★_______12, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: ★极客启程★_______13, server: 91.90.123.115, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: ★极客启程★_______14, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★极客启程★_______15, server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇭🇰 AZ|香港06 NF, server: anycast.cn-c.eqi.me, port: 57931, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.cn-c.eqi.me}}
+  - {name: "🇭🇰 中转|香港HKBN12|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20002, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇭🇰 CM|香港03, server: anycast.live-fi.eqi.me, port: 8012, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.live-fi.eqi.me}}
+  - {name: 🇸🇬 AZ|新加坡01, server: anycast.cn-c.eqi.me, port: 37899, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.cn-c.eqi.me}}
+  - {name: "🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20002, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇸🇬 AZ|新加坡02, server: anycast.cn-c.eqi.me, port: 39017, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.cn-c.eqi.me}}
+  - {name: 🇭🇰 CM|香港06 NF, server: anycast.live-fi.eqi.me, port: 8015, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.live-fi.eqi.me}}
+  - {name: 🇯🇵 AZ|日本03, server: anycast.cn-c.eqi.me, port: 49989, type: vmess, uuid: 6c06c9e9-1b51-46b4-be22-b1833715a066, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anycast.cn-c.eqi.me}}
+  - {name: "🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20049, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇸🇬 SG-AWS | V2 | 广移中转, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: bfcd0463-2f1e-4945-9d90-50037230a372, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: "🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]", server: cm-jm.okvpn.cc, port: 20015, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}}
+  - {name: 🇭🇰 Q102 BGP | 香港 Microsoft, server: 52.81.181.78, port: 21824, type: vmess, uuid: 9cea87a9-07d8-42ef-990a-0cbd5992371d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.181.78}}
+  - {name: "🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 14be65c6-d2cc-4e6f-b529-4186ed6c326e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇭🇰 Q105 BGP | 香港 NeroCloud | NF, server: 52.81.181.78, port: 21825, type: vmess, uuid: 9cea87a9-07d8-42ef-990a-0cbd5992371d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.181.78}}
+  - {name: 🇸🇬 Q401 BGP | 新加坡 Hivelocity, server: 52.81.181.78, port: 21827, type: vmess, uuid: 9cea87a9-07d8-42ef-990a-0cbd5992371d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.181.78}}
+  - {name: 极客启程-V1, server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
+  - {name: 极客启程-V2, server: 104.18.207.61, port: 443, type: vmess, uuid: 356ed062-4f58-49c3-bd44-c0b6db1c94ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv3p.ezddns.tk}}
+  - {name: 极客启程-v3, server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 极客启程-v4, server: 13.49.246.208, port: 443, type: vmess, uuid: df055ea2-4d3a-445e-977d-8e958abaad3a, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /xamjyss143/, ws-headers: {Host: v2ray-se-2.xamjyssvpn.xyz}}
+  - {name: 极客启程-v5, server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}}
+  - {name: 极客启程-v6, server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false}
+  - {name: 极客启程-v7, server: 154.84.1.217, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 极客启程-v8, server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
+  - {name: 极客启程-v9, server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}}
+  - {name: 极客启程-v10, server: 172.67.153.238, port: 443, type: vmess, uuid: 356ed062-4f58-49c3-bd44-c0b6db1c94ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv3p.ezddns.tk}}
+  - {name: 极客启程-v11, server: 18.166.214.33, port: 80, type: vmess, uuid: cc8b49a6-577c-466e-aa6f-d941a4c37e70, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 极客启程-v12, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 极客启程-v13, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
+  - {name: 极客启程-v14, server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 极客启程-v15, server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}}
+  - {name: 极客启程-v16, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
+  - {name: 极客启程-v17, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 极客启程-v18, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
+  - {name: 极客启程-v19, server: 46.182.107.165, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+  - {name: 极客启程-v20, server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}}
+  - {name: 极客启程-v21, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
+  - {name: 极客启程-v22, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+  - {name: 极客启程-v23, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: 极客启程-v24, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
+  - {name: 极客启程-v25, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: 极客启程-v26, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: 极客启程-v27, server: 54.199.6.184, port: 65432, type: vmess, uuid: d13634e2-9cd3-4947-ac45-10652da4d147, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.199.6.184}}
+  - {name: 极客启程-v28, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 极客启程-v29, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 极客启程-v30, server: bimbel.ruangguru.com, port: 80, type: vmess, uuid: b22b990f-b6dd-4b57-a0e1-ee3f829d413f, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /sshkit, ws-headers: {Host: eu-sshkit.v2-ray.cf}}
+  - {name: 极客启程-v31, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 极客启程-v32, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: 极客启程-v33, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 极客启程-v34, server: euserv13p.ezddns.tk, port: 80, type: vmess, uuid: ced80260-a5b1-427b-db09-5a46b69ac9e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv13p.ezddns.tk}}
+  - {name: 极客启程-v35, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 极客启程-v36, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
+  - {name: 极客启程-v37, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
+  - {name: 极客启程-v38, server: euserv3p.ezddns.tk, port: 443, type: vmess, uuid: 356ed062-4f58-49c3-bd44-c0b6db1c94ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv3p.ezddns.tk}}
+  - {name: 极客启程-v39, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+  - {name: 极客启程-v40, server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}}
+  - {name: 极客启程-v41, server: euserv6p.ezddns.tk, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
+  - {name: 极客启程-v42, server: euserv7p.ezddns.tk, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
+  - {name: 极客启程-v43, server: euserv7p.ezddns.tk, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
+  - {name: 极客启程-v43 2, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
+  - {name: 极客启程-v44, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
+  - {name: 极客启程-v45, server: hostmonit.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 极客启程-v46, server: icook.tw, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 极客启程-v47, server: lv.gfw.click, port: 443, type: vmess, uuid: 34b42096-3723-4d0b-8067-423a1cc960f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /user, ws-headers: {Host: lv.gfw.click}}
+  - {name: 极客启程-v48, server: n1.digiteri.com, port: 8443, type: vmess, uuid: a7b384a1-dd97-4fc3-819d-06cd8c706811, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /shensevens, ws-headers: {Host: n1.digiteri.com}}
+  - {name: 极客启程-v49, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 极客启程-v50, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 极客启程-v51, server: qq1-cloud13.feiclouddd.me, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}}
+  - {name: 极客启程-v52, server: us2.paopao.cf, port: 443, type: vmess, uuid: 7f6b65e4-6d5b-4137-a1dc-d32f4a810239, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /tgzhucaidan, ws-headers: {Host: us2.paopao.cf}}
+  - {name: 极客启程-v53, server: v2raylpc.herokuapp.com, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2raylpc.herokuapp.com}}
+  - {name: 极客启程-v54, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -30,6 +117,93 @@ proxy-groups:
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇸🇬 新加坡
+      - 破解软件、VPN翻墙、节点订阅、福利软件、成人音声
+      - ★更多破解软件与节点订阅加入以下电报群
+      - ★电报群：@fuckappcatannouncement
+      - ★极客启程★_______1
+      - ★极客启程★_______2
+      - ★极客启程★_______3
+      - ★极客启程★_______5
+      - ★极客启程★_______6
+      - ★极客启程★_______7
+      - ★极客启程★_______8
+      - ★极客启程★_______9
+      - ★极客启程★_______10
+      - ★极客启程★_______11
+      - ★极客启程★_______12
+      - ★极客启程★_______13
+      - ★极客启程★_______14
+      - ★极客启程★_______15
+      - 🇭🇰 AZ|香港06 NF
+      - 🇭🇰 中转|香港HKBN12|华南隧道[流媒体解锁]
+      - 🇭🇰 CM|香港03
+      - 🇸🇬 AZ|新加坡01
+      - 🇭🇰 中转|香港HKBN11|华南隧道[流媒体解锁]
+      - 🇸🇬 AZ|新加坡02
+      - 🇭🇰 CM|香港06 NF
+      - 🇯🇵 AZ|日本03
+      - 🇸🇬 中转|新加坡Singtel01|华南隧道[流媒体解锁]
+      - 🇸🇬 SG-AWS | V2 | 广移中转
+      - 🇯🇵 中转|日本GMO06|华南隧道[流媒体解锁]
+      - 🇭🇰 Q102 BGP | 香港 Microsoft
+      - 🇨🇳 中转|台湾HiNet01|华南隧道[流媒体解锁]
+      - 🇭🇰 Q105 BGP | 香港 NeroCloud | NF
+      - 🇸🇬 Q401 BGP | 新加坡 Hivelocity
+      - 极客启程-V1
+      - 极客启程-V2
+      - 极客启程-v3
+      - 极客启程-v4
+      - 极客启程-v5
+      - 极客启程-v6
+      - 极客启程-v7
+      - 极客启程-v8
+      - 极客启程-v9
+      - 极客启程-v10
+      - 极客启程-v11
+      - 极客启程-v12
+      - 极客启程-v13
+      - 极客启程-v14
+      - 极客启程-v15
+      - 极客启程-v16
+      - 极客启程-v17
+      - 极客启程-v18
+      - 极客启程-v19
+      - 极客启程-v20
+      - 极客启程-v21
+      - 极客启程-v22
+      - 极客启程-v23
+      - 极客启程-v24
+      - 极客启程-v25
+      - 极客启程-v26
+      - 极客启程-v27
+      - 极客启程-v28
+      - 极客启程-v29
+      - 极客启程-v30
+      - 极客启程-v31
+      - 极客启程-v32
+      - 极客启程-v33
+      - 极客启程-v34
+      - 极客启程-v35
+      - 极客启程-v36
+      - 极客启程-v37
+      - 极客启程-v38
+      - 极客启程-v39
+      - 极客启程-v40
+      - 极客启程-v41
+      - 极客启程-v42
+      - 极客启程-v43
+      - 极客启程-v43 2
+      - 极客启程-v44
+      - 极客启程-v45
+      - 极客启程-v46
+      - 极客启程-v47
+      - 极客启程-v48
+      - 极客启程-v49
+      - 极客启程-v50
+      - 极客启程-v51
+      - 极客启程-v52
+      - 极客启程-v53
+      - 极客启程-v54
   - name: 🎯 全球直连
     type: select
     proxies:
