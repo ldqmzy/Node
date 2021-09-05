@@ -4,34 +4,75 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-proxies:
-  - {name: 🇸🇬 新加坡1, server: 49.51.188.47, port: 32095, type: ss, cipher: aes-256-cfb, password: lanluojing320}
-  - {name: 🇺🇲 美国2, server: 49.51.188.31, port: 32095, type: ss, cipher: aes-256-cfb, password: lanluojing320}
-  - {name: NONE, server: jpjs6o.zhs.company, port: 443, type: trojan, password: 60665a07-09d5-3505-9bd4-c09d02fe46b8, sni: jpjs6o.zhs.company}
-  - {name: 🇭🇰 HK_3329, server: 52.175.57.157, port: 60020, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇭🇰 HK_3310, server: 52.175.57.157, port: 60036, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇭🇰 HK_3318, server: 52.175.63.14, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+proxies: 
+  - {name: 🇺🇸 US_15340 |41.31Mb, server: v6.coding996.com, port: 443, type: vmess, uuid: 1e7aca54-979a-40b0-9d1c-d7ef65a3d665, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /wechat, ws-headers: {Host: v6.coding996.com}}
+  - {name: 🇺🇸 US_15152 |44.88Mb, server: v7.coding996.com, port: 443, type: vmess, uuid: 3095ccd7-cb4d-4229-98d3-fde96aa37906, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v7.coding996.com}}
+  - {name: 🇺🇸 US_15469 |17.61Mb, server: v6.coding996.com, port: 443, type: vmess, uuid: 1e7aca54-979a-40b0-9d1c-d7ef65a3d665, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /wechat, ws-headers: {Host: v6.coding996.com}}
+  - {name: _906 |67.93Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _916 |72.97Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _855 |10.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _852 |10.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _906 |69.09Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: _849 |10.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _925 |57.68Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: _895 |69.09Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: _912 |67.93Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _848 |24.82Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡1
-      - 🇺🇲 美国2
-      - NONE
-      - 🇭🇰 HK_3329
-      - 🇭🇰 HK_3310
-      - 🇭🇰 HK_3318
+      - 🇺🇸 US_15340 |41.31Mb
+      - 🇺🇸 US_15152 |44.88Mb
+      - 🇺🇸 US_15469 |17.61Mb
+      - _906 |67.93Mb
+      - _916 |72.97Mb
+      - _855 |10.81Mb
+      - _852 |10.81Mb
+      - _906 |69.09Mb
+      - _849 |10.81Mb
+      - _925 |57.68Mb
+      - _895 |69.09Mb
+      - _912 |67.93Mb
+      - _848 |24.82Mb
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 US_15340 |41.31Mb
+      - 🇺🇸 US_15152 |44.88Mb
+      - 🇺🇸 US_15469 |17.61Mb
+      - _906 |67.93Mb
+      - _916 |72.97Mb
+      - _855 |10.81Mb
+      - _852 |10.81Mb
+      - _906 |69.09Mb
+      - _849 |10.81Mb
+      - _925 |57.68Mb
+      - _895 |69.09Mb
+      - _912 |67.93Mb
+      - _848 |24.82Mb
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
+      - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1754,6 +1795,7 @@ rules:
  - DOMAIN-SUFFIX,0727vjdl.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,0728w.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,0755man.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,0769liancheng.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,0796gou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,0798ls.com,🛑 全球拦截
  - DOMAIN-SUFFIX,080120.com,🛑 全球拦截
@@ -1779,6 +1821,7 @@ rules:
  - DOMAIN-SUFFIX,1.51dongshi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1.51sxue.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,1.66law.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,1.78500.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,1.800400.net,🛑 全球拦截
  - DOMAIN-SUFFIX,1.92caijing.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1.ajiyuming.com,🛑 全球拦截
@@ -1797,6 +1840,7 @@ rules:
  - DOMAIN-SUFFIX,1.isanxia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1.jeasyui.net,🛑 全球拦截
  - DOMAIN-SUFFIX,1.jiqie.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,1.jushtong.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1.kuaidiwo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,1.lishibu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1.lvshi567.com,🛑 全球拦截
@@ -1811,6 +1855,7 @@ rules:
  - DOMAIN-SUFFIX,1.ttxs123.net,🛑 全球拦截
  - DOMAIN-SUFFIX,1.uc129.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1.ufc123.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,1.ufc7.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1.v-x.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,1.vsimg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1.wenzhangba.cn,🛑 全球拦截
@@ -1853,6 +1898,7 @@ rules:
  - DOMAIN-SUFFIX,13hangpifa.com,🛑 全球拦截
  - DOMAIN-SUFFIX,13wn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1494.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,157776.com,🛑 全球拦截
  - DOMAIN-SUFFIX,16577716.com,🛑 全球拦截
  - DOMAIN-SUFFIX,1680go.com,🛑 全球拦截
  - DOMAIN-SUFFIX,168xiazai.com,🛑 全球拦截
@@ -1890,6 +1936,7 @@ rules:
  - DOMAIN-SUFFIX,201071.com,🛑 全球拦截
  - DOMAIN-SUFFIX,2013sh.com,🛑 全球拦截
  - DOMAIN-SUFFIX,2016.bkill.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,201767.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2018haoyunlai.com,🛑 全球拦截
  - DOMAIN-SUFFIX,201n.com,🛑 全球拦截
  - DOMAIN-SUFFIX,21.cizhibaogao.org,🛑 全球拦截
@@ -1912,6 +1959,8 @@ rules:
  - DOMAIN-SUFFIX,272xb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,280dp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,283.laobanfa.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,2886115.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,2886996.com,🛑 全球拦截
  - DOMAIN-SUFFIX,28acglz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,28wangmeng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,292812.com,🛑 全球拦截
@@ -1926,6 +1975,7 @@ rules:
  - DOMAIN-SUFFIX,2gz9nc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2ktd0.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2m2n.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,2nmhz6k.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2pmob.com,🛑 全球拦截
  - DOMAIN-SUFFIX,2polj.top,🛑 全球拦截
  - DOMAIN-SUFFIX,2txt.cc:8862,🛑 全球拦截
@@ -2069,6 +2119,7 @@ rules:
  - DOMAIN-SUFFIX,5imoney.com,🛑 全球拦截
  - DOMAIN-SUFFIX,5nf0ec.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,5pub.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,5qoh.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,5socks.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,5y9nfpes.52pk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,605296.com,🛑 全球拦截
@@ -2139,6 +2190,7 @@ rules:
  - DOMAIN-SUFFIX,85wa.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,860010.com,🛑 全球拦截
  - DOMAIN-SUFFIX,874547.men,🛑 全球拦截
+ - DOMAIN-SUFFIX,8776315.com,🛑 全球拦截
  - DOMAIN-SUFFIX,88-baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,88.yunqishi.net,🛑 全球拦截
  - DOMAIN-SUFFIX,88.yunqishi8.com,🛑 全球拦截
@@ -2193,6 +2245,12 @@ rules:
  - DOMAIN-SUFFIX,99lolo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,99pps.com,🛑 全球拦截
  - DOMAIN-SUFFIX,99tianxin.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,9a9j.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,9b0v.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,9c1g.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,9c1k.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,9d6k.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,9e0u.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,9kanw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,9kff.com,🛑 全球拦截
  - DOMAIN-SUFFIX,9nwg9sib9e.com,🛑 全球拦截
@@ -2211,6 +2269,7 @@ rules:
  - DOMAIN-SUFFIX,a.91nets.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,a.91zhongkao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a.armystar.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,a.baidinet.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a.bake818.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,a.baomihua.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a.duanmeiwen.com,🛑 全球拦截
@@ -2387,6 +2446,7 @@ rules:
  - DOMAIN-SUFFIX,afp.chinanews.com,🛑 全球拦截
  - DOMAIN-SUFFIX,afp.wasu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,afpcreative.wasu.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,aftdt.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ag1.zuszw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,agilehw.online,🛑 全球拦截
  - DOMAIN-SUFFIX,agjy6.com,🛑 全球拦截
@@ -2424,6 +2484,7 @@ rules:
  - DOMAIN-SUFFIX,aitehao.top,🛑 全球拦截
  - DOMAIN-SUFFIX,aiwen.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,aixuyoupin.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,aiyun.club,🛑 全球拦截
  - DOMAIN-SUFFIX,aiyyu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ajaxcdn.org,🛑 全球拦截
  - DOMAIN-SUFFIX,ajiez.com,🛑 全球拦截
@@ -2542,6 +2603,7 @@ rules:
  - DOMAIN-SUFFIX,badding.oss-ap-southeast-1.aliyuncs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bahu.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,baiapk.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,baidu-image-qqcom.com,🛑 全球拦截
  - DOMAIN-SUFFIX,baidu.bxwx3.org,🛑 全球拦截
  - DOMAIN-SUFFIX,baidu1.codejie.net,🛑 全球拦截
  - DOMAIN-SUFFIX,baiduace.com,🛑 全球拦截
@@ -2555,6 +2617,7 @@ rules:
  - DOMAIN-SUFFIX,bairentou.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,baitaoidc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,baiyangzs.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,baiyaqin.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,baiyuandian.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,baj.fanwenzhan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bajieyy.cc,🛑 全球拦截
@@ -2562,12 +2625,14 @@ rules:
  - DOMAIN-SUFFIX,bangdu2.com,🛑 全球拦截
  - DOMAIN-SUFFIX,banjuanmao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,banma51.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,baolanke.top,🛑 全球拦截
  - DOMAIN-SUFFIX,baolic.com,🛑 全球拦截
  - DOMAIN-SUFFIX,baolutongwuye.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,baomeidiaosu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,baoren.tech,🛑 全球拦截
  - DOMAIN-SUFFIX,baoxian28.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bas.boshi.tv,🛑 全球拦截
+ - DOMAIN-SUFFIX,baskba.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,bbbx.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,bbdsdy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bbttkk.com,🛑 全球拦截
@@ -2581,6 +2646,7 @@ rules:
  - DOMAIN-SUFFIX,bd.watu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bd1-china.6789.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bd1-china.xsfaya.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,bd1-ys.km.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bd1.365qilu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bd1.99danji.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bd1.click.com.cn,🛑 全球拦截
@@ -2687,6 +2753,7 @@ rules:
  - DOMAIN-SUFFIX,bjs.faxingzhan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bjsjyg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bjtengda.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,bjxfinance.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bjxgw.top,🛑 全球拦截
  - DOMAIN-SUFFIX,bjygfd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bjytdqwx.com,🛑 全球拦截
@@ -2725,6 +2792,7 @@ rules:
  - DOMAIN-SUFFIX,braincf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bridline.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bronya.club,🛑 全球拦截
+ - DOMAIN-SUFFIX,brownfox.top,🛑 全球拦截
  - DOMAIN-SUFFIX,brysj.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,bsfishing.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bsjgc.com,🛑 全球拦截
@@ -2772,10 +2840,12 @@ rules:
  - DOMAIN-SUFFIX,ca.cydp5.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cacafly.net,🛑 全球拦截
  - DOMAIN-SUFFIX,cadsips.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,caicaiplay.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,caichenguang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,caiji.wiki,🛑 全球拦截
  - DOMAIN-SUFFIX,caiwanhui.top,🛑 全球拦截
  - DOMAIN-SUFFIX,calculated.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,canalandco.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cangnews.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cao444cao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,caofta.cn,🛑 全球拦截
@@ -2858,6 +2928,7 @@ rules:
  - DOMAIN-SUFFIX,chinawms.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chinaxingyin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chinayutai.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,chinazhaoye.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chiuhua.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chkwwg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chongnikeji.com,🛑 全球拦截
@@ -2963,6 +3034,7 @@ rules:
  - DOMAIN-SUFFIX,cqshaseng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cqut.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,cqyhd.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,cqyijiu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,crayon.meishichina.com,🛑 全球拦截
  - DOMAIN-SUFFIX,crdrjs.info,🛑 全球拦截
  - DOMAIN-SUFFIX,cre99.com,🛑 全球拦截
@@ -3002,6 +3074,7 @@ rules:
  - DOMAIN-SUFFIX,cy-wz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cyacc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cyboke.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,cycytea.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cytcm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cyto-biotherapy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cz09.com,🛑 全球拦截
@@ -3068,6 +3141,7 @@ rules:
  - DOMAIN-SUFFIX,dangrancha.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,danlidanli.net,🛑 全球拦截
  - DOMAIN-SUFFIX,dante2007.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,daochengwowo.top,🛑 全球拦截
  - DOMAIN-SUFFIX,daokejs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,darren01.oss-cn-beijing.aliyuncs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dashaowu.com,🛑 全球拦截
@@ -3104,6 +3178,7 @@ rules:
  - DOMAIN-SUFFIX,deliver.ifeng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,delivery.playallvideos.com,🛑 全球拦截
  - DOMAIN-SUFFIX,deskt.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,dexuanyu.top,🛑 全球拦截
  - DOMAIN-SUFFIX,deyidesign.com,🛑 全球拦截
  - DOMAIN-SUFFIX,df3n43m.com,🛑 全球拦截
  - DOMAIN-SUFFIX,df77.com,🛑 全球拦截
@@ -3176,6 +3251,8 @@ rules:
  - DOMAIN-SUFFIX,dnskuu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dodolive.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dofkfhv.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,domain1.chahaoba.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,donghua.asia,🛑 全球拦截
  - DOMAIN-SUFFIX,door2new.net,🛑 全球拦截
  - DOMAIN-SUFFIX,dou777.com,🛑 全球拦截
  - DOMAIN-SUFFIX,doubleclick.ctfile.com,🛑 全球拦截
@@ -3209,7 +3286,6 @@ rules:
  - DOMAIN-SUFFIX,duobaoqj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dup.baidustatic.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dupinpu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,dushuge.net,🛑 全球拦截
  - DOMAIN-SUFFIX,duusuu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,duyousxtd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dvr8.com,🛑 全球拦截
@@ -3232,6 +3308,7 @@ rules:
  - DOMAIN-SUFFIX,dzxzx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,e-demx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,e.yycqc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,e66gg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,e7001.com,🛑 全球拦截
  - DOMAIN-SUFFIX,e70123.com,🛑 全球拦截
  - DOMAIN-SUFFIX,e7015.com,🛑 全球拦截
@@ -3248,6 +3325,7 @@ rules:
  - DOMAIN-SUFFIX,ebp.renren.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ebuysolar.com,🛑 全球拦截
  - DOMAIN-SUFFIX,echuanglm1.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ecrf.tech,🛑 全球拦截
  - DOMAIN-SUFFIX,ecuc123.net,🛑 全球拦截
  - DOMAIN-SUFFIX,edajin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ediun.com,🛑 全球拦截
@@ -3259,6 +3337,7 @@ rules:
  - DOMAIN-SUFFIX,ee.shixunwang.net,🛑 全球拦截
  - DOMAIN-SUFFIX,eeer.ren,🛑 全球拦截
  - DOMAIN-SUFFIX,egozne.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,eiasia.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,einsuran.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ejee.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,ejeenews.com,🛑 全球拦截
@@ -3296,6 +3375,7 @@ rules:
  - DOMAIN-SUFFIX,euler7.club,🛑 全球拦截
  - DOMAIN-SUFFIX,evzimlox.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ew740.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,exgt.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,expo123.net,🛑 全球拦截
  - DOMAIN-SUFFIX,extremedirectness.com,🛑 全球拦截
  - DOMAIN-SUFFIX,exusr.com,🛑 全球拦截
@@ -3344,9 +3424,11 @@ rules:
  - DOMAIN-SUFFIX,fengmishop.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fengousm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fenhao14.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,fensifuligo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fexiaen.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ff.guidaye.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ff.meikanguo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ff.qichetansuo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ff.xue163.net,🛑 全球拦截
  - DOMAIN-SUFFIX,ff01s.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ffa9.cn,🛑 全球拦截
@@ -3385,6 +3467,7 @@ rules:
  - DOMAIN-SUFFIX,fnggukz.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fnkjj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fnwll.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,focusonus.top,🛑 全球拦截
  - DOMAIN-SUFFIX,focusprolight.com,🛑 全球拦截
  - DOMAIN-SUFFIX,forever-k.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,foreveryoung.gz01.bdysite.com,🛑 全球拦截
@@ -3460,6 +3543,7 @@ rules:
  - DOMAIN-SUFFIX,game527.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ganjituiguang.ganji.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gaobata.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,gaomingbo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,garacy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gars57.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gasxf.com,🛑 全球拦截
@@ -3496,6 +3580,7 @@ rules:
  - DOMAIN-SUFFIX,gg.getbs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gg.gsdlcn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gg.gw032.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,gg.huahaimi.work,🛑 全球拦截
  - DOMAIN-SUFFIX,gg.kugou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gg.miued.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gg.sonhoo.com,🛑 全球拦截
@@ -3533,9 +3618,13 @@ rules:
  - DOMAIN-SUFFIX,gongfanglong.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gongshu168.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gongxifacai21.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,goodgoodluck.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,goodgz.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,goodkee.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,googlexbaidu.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,goteacher.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,goto.www.iciba.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,gotoip.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gotooback.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gotourl.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,gotourls.bid,🛑 全球拦截
@@ -3564,6 +3653,7 @@ rules:
  - DOMAIN-SUFFIX,gralfusnzpo008.top,🛑 全球拦截
  - DOMAIN-SUFFIX,graypay1.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,greeknaturalcyprus.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,greenadoption.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,greenbetterkids.com,🛑 全球拦截
  - DOMAIN-SUFFIX,greenhouseglobal.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,greenxcx.com,🛑 全球拦截
@@ -3587,6 +3677,7 @@ rules:
  - DOMAIN-SUFFIX,gts991.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guaas.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guang.sdsgwy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,guang1.zhakao.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,guang8.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,guangsss1999.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guangweixinxi345.cn,🛑 全球拦截
@@ -3597,6 +3688,7 @@ rules:
  - DOMAIN-SUFFIX,guduopu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guess.h.qhimg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guidashu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,guideserv.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,guirui-clothes.com,🛑 全球拦截
  - DOMAIN-SUFFIX,guiyimq.fun,🛑 全球拦截
  - DOMAIN-SUFFIX,guoduand.cn,🛑 全球拦截
@@ -3644,6 +3736,7 @@ rules:
  - DOMAIN-SUFFIX,h1.kukuw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,h41s.com,🛑 全球拦截
  - DOMAIN-SUFFIX,h4kdxs.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,h728.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,habyc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hades.qyer.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hahazl.com,🛑 全球拦截
@@ -3656,6 +3749,7 @@ rules:
  - DOMAIN-SUFFIX,haiyunpush.com,🛑 全球拦截
  - DOMAIN-SUFFIX,haizirv.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,handanxinkai.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,hanhaiedu.tech,🛑 全球拦截
  - DOMAIN-SUFFIX,hanmiyong.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hanqidq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hanqingstudio.com,🛑 全球拦截
@@ -3734,10 +3828,12 @@ rules:
  - DOMAIN-SUFFIX,hhhw.ren,🛑 全球拦截
  - DOMAIN-SUFFIX,hhrhl.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,hhslbz.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,hhsoftinfo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hi.xiunm.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hi.xiunm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hi760.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hiad.myweb.hinet.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,hicpic.net.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,highter.top,🛑 全球拦截
  - DOMAIN-SUFFIX,hihifenxiang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hiibcfr.cn,🛑 全球拦截
@@ -3793,10 +3889,12 @@ rules:
  - DOMAIN-SUFFIX,hogyp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hongchenzhilu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hongdianshijue.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,hongjiaex.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hongshikai.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hongtefm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hongwenge.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hongyangbg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,horselvxing.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hot-eam.com,🛑 全球拦截
  - DOMAIN-SUFFIX,houanjijuxie.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,houfang8.com,🛑 全球拦截
@@ -3832,6 +3930,7 @@ rules:
  - DOMAIN-SUFFIX,huigoushop.com,🛑 全球拦截
  - DOMAIN-SUFFIX,huigun.top,🛑 全球拦截
  - DOMAIN-SUFFIX,huijiamei.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,huilan.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,huimee.net,🛑 全球拦截
  - DOMAIN-SUFFIX,huiqingvip.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huishij.net,🛑 全球拦截
@@ -3848,6 +3947,7 @@ rules:
  - DOMAIN-SUFFIX,huonvd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huosuniao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hurom365.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,huzhu.group,🛑 全球拦截
  - DOMAIN-SUFFIX,hw6.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hxadt.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hxbt.alading123.com,🛑 全球拦截
@@ -3894,6 +3994,7 @@ rules:
  - DOMAIN-SUFFIX,ia22.com,🛑 全球拦截
  - DOMAIN-SUFFIX,iads.xinmin.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ic86doc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,icefog.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,icemf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,icyrd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,id528.com,🛑 全球拦截
@@ -3955,6 +4056,7 @@ rules:
  - DOMAIN-SUFFIX,ios.426g.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ip.hivps.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,ipchinatelecom.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ipxjps.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iqiyi.kim,🛑 全球拦截
  - DOMAIN-SUFFIX,iqiyi.pub,🛑 全球拦截
  - DOMAIN-SUFFIX,iqu-operation.com,🛑 全球拦截
@@ -3971,8 +4073,11 @@ rules:
  - DOMAIN-SUFFIX,itcoder.top,🛑 全球拦截
  - DOMAIN-SUFFIX,itemccmod.com,🛑 全球拦截
  - DOMAIN-SUFFIX,iupnlpd.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ivruc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ivy.pconline.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iwansf.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,iwucoz.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,iynmloa.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iyoowi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,iyouhu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iyptc.cn,🛑 全球拦截
@@ -3991,6 +4096,7 @@ rules:
  - DOMAIN-SUFFIX,jacklm1.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jacklm2.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jacquelinelaura.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jasontaojin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jb.dianshu119.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jb.ecar168.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jbbath.cn,🛑 全球拦截
@@ -4007,8 +4113,10 @@ rules:
  - DOMAIN-SUFFIX,jdgcjx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jdgsgl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jdlhg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jdwxshfw.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jdzlxtc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jehudf.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jenniferlaurax.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jessicalaurax.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jfgcxj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jfjsp.com,🛑 全球拦截
@@ -4022,7 +4130,9 @@ rules:
  - DOMAIN-SUFFIX,jhgff23az.biqugetv.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jhtcdj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jhwj88.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jhwt.shop,🛑 全球拦截
  - DOMAIN-SUFFIX,jia-huan.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,jiachangwuliu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jiahewine.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jiaheyonggu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jiajv.net,🛑 全球拦截
@@ -4057,6 +4167,7 @@ rules:
  - DOMAIN-SUFFIX,jindongsheng.top,🛑 全球拦截
  - DOMAIN-SUFFIX,jindowins.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jindu179.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jingcaiedc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jingdayiyuan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jinghuazhijia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jinglongtang.cn,🛑 全球拦截
@@ -4081,6 +4192,7 @@ rules:
  - DOMAIN-SUFFIX,jinzpeng.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jioeg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jisufeifei.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jisukuaisong.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jisuoping.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jituangongsi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jiudiandyw.com,🛑 全球拦截
@@ -4107,15 +4219,18 @@ rules:
  - DOMAIN-SUFFIX,jlhygy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jlwljym.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jlxzt.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jm166.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jndczg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jndfrqz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jnjcxx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jnkqds.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jnmqym4.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jnsdkjzs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jnxz66.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jnxz88.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jnyngg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,joannalaura.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jocelynlaura.com,🛑 全球拦截
  - DOMAIN-SUFFIX,johtzj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jollyspring.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jotrening.com,🛑 全球拦截
@@ -4188,6 +4303,7 @@ rules:
  - DOMAIN-SUFFIX,juyour8.org,🛑 全球拦截
  - DOMAIN-SUFFIX,jvyigg.biqugeq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jvyigg.zbzw.la,🛑 全球拦截
+ - DOMAIN-SUFFIX,jwyl.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,jx.renrensousuo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jx118114.net,🛑 全球拦截
  - DOMAIN-SUFFIX,jxad.jx163.com,🛑 全球拦截
@@ -4212,6 +4328,7 @@ rules:
  - DOMAIN-SUFFIX,jytjw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jzdianlan.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jzhxzsgs.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jzjxmj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jzn360.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jzq2019.top,🛑 全球拦截
  - DOMAIN-SUFFIX,jzrzpump.com,🛑 全球拦截
@@ -4241,6 +4358,7 @@ rules:
  - DOMAIN-SUFFIX,kddlearn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kdy365.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,keeyekey.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,kefan.info,🛑 全球拦截
  - DOMAIN-SUFFIX,keilb.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,kejiadoor.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kele4.com,🛑 全球拦截
@@ -4252,6 +4370,7 @@ rules:
  - DOMAIN-SUFFIX,kf3msfm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kfd3sm2c.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kfluoa.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,kfweo2.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kfyg.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,kgfnhf.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kgua0o66bcw8.com,🛑 全球拦截
@@ -4302,6 +4421,7 @@ rules:
  - DOMAIN-SUFFIX,kuaidibox.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kuaidube.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kuaipaobiaoju.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,kuprvs.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kuuad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kuwoyy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kuxinqi.com,🛑 全球拦截
@@ -4309,6 +4429,7 @@ rules:
  - DOMAIN-SUFFIX,kwntistyuogo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kxrxh.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kyad88.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,kykmuyi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kyouad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,kypzu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kyqcfj.com,🛑 全球拦截
@@ -4329,6 +4450,7 @@ rules:
  - DOMAIN-SUFFIX,lantata.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lantuyj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lanzuankeji.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,laobaigushi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,laobei.top,🛑 全球拦截
  - DOMAIN-SUFFIX,laojiayoufang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,laolinow.com,🛑 全球拦截
@@ -4349,6 +4471,7 @@ rules:
  - DOMAIN-SUFFIX,lesanmo.top,🛑 全球拦截
  - DOMAIN-SUFFIX,letaojuan68.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lexph.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,leyxue.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lezengxin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,leztc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lfdydk.com,🛑 全球拦截
@@ -4366,7 +4489,9 @@ rules:
  - DOMAIN-SUFFIX,lhy1.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,lianfuhuang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,liangxiaoru.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,liangzimo.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,liangziweixg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,lianmen1.joyyang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lianyicq.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,liaoningo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,liaoren85.com,🛑 全球拦截
@@ -4382,6 +4507,7 @@ rules:
  - DOMAIN-SUFFIX,linana.top,🛑 全球拦截
  - DOMAIN-SUFFIX,lindanmiaoxiang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,linghangshouji.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,lingqinga.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,linjiajia.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,linkjingkeji.com,🛑 全球拦截
  - DOMAIN-SUFFIX,linkpage.cn,🛑 全球拦截
@@ -4410,6 +4536,7 @@ rules:
  - DOMAIN-SUFFIX,ljg79.work,🛑 全球拦截
  - DOMAIN-SUFFIX,ljggc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ljmei.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,lkle.top,🛑 全球拦截
  - DOMAIN-SUFFIX,ll.gxsky.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ll38.com,🛑 全球拦截
  - DOMAIN-SUFFIX,llguandongyan.com,🛑 全球拦截
@@ -4450,13 +4577,17 @@ rules:
  - DOMAIN-SUFFIX,lsxmg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ltaome.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ltcprtc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,lthzd.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ltyonej.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lu.sogoucdn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,luassane.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lucktui.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,luojianrong.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,luoyuanedu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lusrg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,luxoshopde.com,🛑 全球拦截
  - DOMAIN-SUFFIX,luyouxi.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,lv-xin.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lv.myapks.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lvkuaizi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lvsechufang.com,🛑 全球拦截
@@ -4561,6 +4692,7 @@ rules:
  - DOMAIN-SUFFIX,mg17i.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mgsue.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mgtv-bbqn.oss-cn-beijing.aliyuncs.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mgtw.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,mgwcn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mhdnspro.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mhi9da.cn,🛑 全球拦截
@@ -4583,6 +4715,7 @@ rules:
  - DOMAIN-SUFFIX,mituir.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,miyaluorenliziuan.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mjita.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,mjpiqb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mjtowot.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mjvmypr.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mjx123.com,🛑 全球拦截
@@ -4648,6 +4781,7 @@ rules:
  - DOMAIN-SUFFIX,mzbb8872.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mzcs65562.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mzirmall.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mzokqm.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,n18uji.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,n5ta9.site,🛑 全球拦截
  - DOMAIN-SUFFIX,nabeghlavi.com.cn,🛑 全球拦截
@@ -4659,10 +4793,12 @@ rules:
  - DOMAIN-SUFFIX,nanyangqiaoxiang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,naolifanghealth.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nashlin.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,nauklh.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,nazhenkj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nbhotpo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nbhxgjz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nbsave.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,nbsxa.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,nbwmsod.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,nbzq.net,🛑 全球拦截
  - DOMAIN-SUFFIX,nchte.com,🛑 全球拦截
@@ -4734,6 +4870,7 @@ rules:
  - DOMAIN-SUFFIX,nr1234.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ns1.chinayms.com,🛑 全球拦截
  - DOMAIN-SUFFIX,nterbx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ntfirstleap.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ntxiangtai.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ntzfly.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,nuanyanghb.com,🛑 全球拦截
@@ -4804,6 +4941,7 @@ rules:
  - DOMAIN-SUFFIX,p.junshifuxin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,p.zol-img.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,p1.chinakaoyan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,p1.qxzsw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,p1.zhongyoo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,p1.zhumengwl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,p3tt.com,🛑 全球拦截
@@ -4923,6 +5061,7 @@ rules:
  - DOMAIN-SUFFIX,qgdvyvd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qgjapp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qgss8.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,qgydhjh.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qhaif.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qhdbfjx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qhdfxkj.com,🛑 全球拦截
@@ -4939,6 +5078,7 @@ rules:
  - DOMAIN-SUFFIX,qianmeiby.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qianyuntengyue.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qiaoenyl.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,qiaohong.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,qiaopiguniang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qichetuoyun.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qiditrade.com,🛑 全球拦截
@@ -4956,7 +5096,9 @@ rules:
  - DOMAIN-SUFFIX,qiqiyii.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qiruidea.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qivsod.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,qixedu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qiyeb.iaskbus.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,qiyebaopin.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qiyegongqiu1.qiyegongqiu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qizixsw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qjxszp.cn,🛑 全球拦截
@@ -4971,6 +5113,7 @@ rules:
  - DOMAIN-SUFFIX,qpmue.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,qpmztk.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qpokok.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,qq2img.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qqdashabi.top,🛑 全球拦截
  - DOMAIN-SUFFIX,qqhuhu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qqm98.com,🛑 全球拦截
@@ -5047,6 +5190,7 @@ rules:
  - DOMAIN-SUFFIX,renrentoutiao.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,renshengyiyi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,renyantian.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,reofamily.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,represented.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,requested.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,resource.baomihua.com,🛑 全球拦截
@@ -5073,8 +5217,10 @@ rules:
  - DOMAIN-SUFFIX,rqkgcd.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,rrsubway.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rscxwmj.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,rtkyvd.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,ruibokeji.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ruigezx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ruiy.shop,🛑 全球拦截
  - DOMAIN-SUFFIX,ruizhimu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,runkao.net,🛑 全球拦截
  - DOMAIN-SUFFIX,ruxianke.com,🛑 全球拦截
@@ -5103,6 +5249,7 @@ rules:
  - DOMAIN-SUFFIX,safe555.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,sakuraquant.com,🛑 全球拦截
  - DOMAIN-SUFFIX,salary.xiao84.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,saleonce.top,🛑 全球拦截
  - DOMAIN-SUFFIX,samanthyean.com,🛑 全球拦截
  - DOMAIN-SUFFIX,same.chinadaily.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,same.eastmoney.com,🛑 全球拦截
@@ -5153,6 +5300,7 @@ rules:
  - DOMAIN-SUFFIX,sh996.dftoutiao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shackapple.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shama5.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,shandongaosen.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,shanghebaizhou.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,shanghuitianxia.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,shangyingwm.com,🛑 全球拦截
@@ -5234,6 +5382,7 @@ rules:
  - DOMAIN-SUFFIX,sjljz.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sjmltjmgw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sjmwkj.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,skrmzl.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,skywinners.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sleepzn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,slivercommander.cn,🛑 全球拦截
@@ -5293,6 +5442,7 @@ rules:
  - DOMAIN-SUFFIX,start1999.com,🛑 全球拦截
  - DOMAIN-SUFFIX,static-cn.plista.com,🛑 全球拦截
  - DOMAIN-SUFFIX,static-ssp.yidianzixun.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,static.gaomaer.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,static.ichehome.com,🛑 全球拦截
  - DOMAIN-SUFFIX,static.jiaquyi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,static.sinawap.com,🛑 全球拦截
@@ -5303,6 +5453,7 @@ rules:
  - DOMAIN-SUFFIX,stm65i8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,stn88.com,🛑 全球拦截
  - DOMAIN-SUFFIX,stocksbsc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,stormreader.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,stsywl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,stunninglover.com,🛑 全球拦截
  - DOMAIN-SUFFIX,suangtianw.com,🛑 全球拦截
@@ -5312,7 +5463,9 @@ rules:
  - DOMAIN-SUFFIX,sugarpuff.net,🛑 全球拦截
  - DOMAIN-SUFFIX,suhusushi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,suitmatters.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,sunang37.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sundady.online,🛑 全球拦截
+ - DOMAIN-SUFFIX,sungong1987.com,🛑 全球拦截
  - DOMAIN-SUFFIX,suning.beer,🛑 全球拦截
  - DOMAIN-SUFFIX,suning.design,🛑 全球拦截
  - DOMAIN-SUFFIX,suning.fit,🛑 全球拦截
@@ -5326,6 +5479,7 @@ rules:
  - DOMAIN-SUFFIX,svfwer.top,🛑 全球拦截
  - DOMAIN-SUFFIX,sviss.top,🛑 全球拦截
  - DOMAIN-SUFFIX,sw9t.ml,🛑 全球拦截
+ - DOMAIN-SUFFIX,swaa.top,🛑 全球拦截
  - DOMAIN-SUFFIX,swq48b.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,swtkc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,swyhome.com,🛑 全球拦截
@@ -5371,6 +5525,7 @@ rules:
  - DOMAIN-SUFFIX,szhdhbz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,szhgmd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,szjianxin.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,szjywn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,szmxwjm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,szpengliye.com,🛑 全球拦截
  - DOMAIN-SUFFIX,szpgzn.com,🛑 全球拦截
@@ -5401,6 +5556,7 @@ rules:
  - DOMAIN-SUFFIX,tangequan.co,🛑 全球拦截
  - DOMAIN-SUFFIX,taobaojx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,taobayun.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,taobso.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,taoguanda.com,🛑 全球拦截
  - DOMAIN-SUFFIX,taoguohe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,taohanpai.com,🛑 全球拦截
@@ -5410,11 +5566,11 @@ rules:
  - DOMAIN-SUFFIX,tatjhh.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tbaia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tbaocdn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tc.18moe.net,🛑 全球拦截
  - DOMAIN-SUFFIX,tc600.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tcals.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tcbdd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tchep.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,tchkcc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tcmdz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tcnmf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tdain.com,🛑 全球拦截
@@ -5514,6 +5670,7 @@ rules:
  - DOMAIN-SUFFIX,trourted.pro,🛑 全球拦截
  - DOMAIN-SUFFIX,trpsm.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,truecrimesss.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,tryost.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tsdlp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tsgyg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tsrc8.com,🛑 全球拦截
@@ -5551,8 +5708,8 @@ rules:
  - DOMAIN-SUFFIX,tyue.me,🛑 全球拦截
  - DOMAIN-SUFFIX,tyyjzs.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tzh019.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,tzhqg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,u.63kc.com,🛑 全球拦截
- - DOMAIN-SUFFIX,u.cnzol.com,🛑 全球拦截
  - DOMAIN-SUFFIX,u.huoying666.com,🛑 全球拦截
  - DOMAIN-SUFFIX,u.zuoyesou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,u05m.cn,🛑 全球拦截
@@ -5576,8 +5733,11 @@ rules:
  - DOMAIN-SUFFIX,uc.zhuici.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uc4a.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,uc610.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,uc9.suinidai.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ucaii.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ucxgg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ud831d2.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ud831d4.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ue2bm3.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ugg66.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uhbjvwn.cn,🛑 全球拦截
@@ -5611,8 +5771,10 @@ rules:
  - DOMAIN-SUFFIX,uuu88.top,🛑 全球拦截
  - DOMAIN-SUFFIX,uuwhg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uvclick.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,uxszams.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,uyueread.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uzpmrbek.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,v1.19purify.com,🛑 全球拦截
  - DOMAIN-SUFFIX,v1.kwpewga.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,v1.phb123.com,🛑 全球拦截
  - DOMAIN-SUFFIX,v1.taksh.cn,🛑 全球拦截
@@ -5624,6 +5786,7 @@ rules:
  - DOMAIN-SUFFIX,valueur.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vasb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,vbanm.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,vbillplus.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,vc370.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vchim.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vdazz.net,🛑 全球拦截
@@ -5638,6 +5801,7 @@ rules:
  - DOMAIN-SUFFIX,victorjx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,video231.oss-cn-beijing.aliyuncs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vinuxhome.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,vip.panggugu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,vivi87.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,vjptye.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,vkpsmzj.cn,🛑 全球拦截
@@ -5683,11 +5847,14 @@ rules:
  - DOMAIN-SUFFIX,wangketuan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wanglc.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,wangliqin.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,wangmiao.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,wangmingsort.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wangqilin.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,wangqing7.top,🛑 全球拦截
  - DOMAIN-SUFFIX,wangqipu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wangtianci.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wangyuekun.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,wangzhenzhi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wangzibo.top,🛑 全球拦截
  - DOMAIN-SUFFIX,wannuochongkong.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wantaico.com,🛑 全球拦截
@@ -5712,10 +5879,12 @@ rules:
  - DOMAIN-SUFFIX,web.900.la,🛑 全球拦截
  - DOMAIN-SUFFIX,web0513.com,🛑 全球拦截
  - DOMAIN-SUFFIX,webbridcar.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,webstd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wechatpu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wecrtfr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,weduoke.com,🛑 全球拦截
  - DOMAIN-SUFFIX,weekslw.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,weiboyaya.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,weidehuagong.com,🛑 全球拦截
  - DOMAIN-SUFFIX,weifengtianxia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,weiguanwang888.com,🛑 全球拦截
@@ -5746,6 +5915,7 @@ rules:
  - DOMAIN-SUFFIX,whbhsoft.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,whfpbc.99.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,whhxnz.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,whmhdz.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,whpxy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,whrles.com,🛑 全球拦截
  - DOMAIN-SUFFIX,whshangsha.com,🛑 全球拦截
@@ -5773,6 +5943,7 @@ rules:
  - DOMAIN-SUFFIX,wlaoc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wlbqczk.vip,🛑 全球拦截
  - DOMAIN-SUFFIX,wlshotel.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,wlxzzx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wm-mxc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wm.mipcdn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wm.szdushi.com.cn,🛑 全球拦截
@@ -5837,6 +6008,7 @@ rules:
  - DOMAIN-SUFFIX,wywsdx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wyxcb6.top,🛑 全球拦截
  - DOMAIN-SUFFIX,wyzq.rehuwang.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wyzxn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wzjijia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wzjs1.oss-accelerate.aliyuncs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wzsygdl.com,🛑 全球拦截
@@ -5876,6 +6048,7 @@ rules:
  - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xdbwc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xdcqcyp.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,xddfsp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xdrzdh.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xdyjt.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xdyszx.com,🛑 全球拦截
@@ -5999,6 +6172,7 @@ rules:
  - DOMAIN-SUFFIX,xsjyun.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xsyouwei.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xt2d.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,xtdzkj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xtianqi.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xtxa.net,🛑 全球拦截
  - DOMAIN-SUFFIX,xtyizilaijx.cn,🛑 全球拦截
@@ -6019,15 +6193,18 @@ rules:
  - DOMAIN-SUFFIX,xunlaile.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xunzhuo123.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xuro006.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,xuruochen.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xuxiangkj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xvqdfwy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xvyljkr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xw1001.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xwdsp.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,xwintop.top,🛑 全球拦截
  - DOMAIN-SUFFIX,xww360.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xxaalsn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xxhrd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xxia.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,xxjuefi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xxkio.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xxyxmdq.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xxzzsj.xyz,🛑 全球拦截
@@ -6046,6 +6223,7 @@ rules:
  - DOMAIN-SUFFIX,xytom.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xywgbms.top,🛑 全球拦截
  - DOMAIN-SUFFIX,xz6d.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,xzhcedu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,xzpyjd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xztms.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xzyituo.com,🛑 全球拦截
@@ -6055,11 +6233,13 @@ rules:
  - DOMAIN-SUFFIX,y7o9rh.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yaba.org.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yajiuwz.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,yakuya.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yalongrope.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yamahahb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yamaidei.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yanbenji.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yangdasen.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,yangtingchina.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yangtzeev.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yangzhenpeng.top,🛑 全球拦截
  - DOMAIN-SUFFIX,yanjunbo.com,🛑 全球拦截
@@ -6071,6 +6251,7 @@ rules:
  - DOMAIN-SUFFIX,yaokuan01.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yaoquanshumeiyu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yaoxiaoli.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,yaoxing.fun,🛑 全球拦截
  - DOMAIN-SUFFIX,yapusheji.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yatemy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ybhypt.com,🛑 全球拦截
@@ -6096,6 +6277,7 @@ rules:
  - DOMAIN-SUFFIX,yg10x.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ygblogtag.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ygnoqu.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,yhaizy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yhdtns.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yhhls.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yhsmk.com,🛑 全球拦截
@@ -6136,8 +6318,10 @@ rules:
  - DOMAIN-SUFFIX,yixui.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yiyu-fz.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yiyuantian.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,yjbuhao.top,🛑 全球拦截
  - DOMAIN-SUFFIX,yjegf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yjiaj.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,yjjc.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,yjxqy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ykanx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ykpbgqc.top,🛑 全球拦截
@@ -6145,6 +6329,7 @@ rules:
  - DOMAIN-SUFFIX,yl-zipper.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ylfgybn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ylflwbj.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ylinzx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ylppppp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ylykd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ymcqb.com,🛑 全球拦截
@@ -6168,6 +6353,7 @@ rules:
  - DOMAIN-SUFFIX,you6ka.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,youfumei.com,🛑 全球拦截
  - DOMAIN-SUFFIX,youhehuixiangxinxi.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,youhuixia1210.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,youhuomeishi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,youlejia.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,youngalsobeautiful.com,🛑 全球拦截
@@ -6176,6 +6362,7 @@ rules:
  - DOMAIN-SUFFIX,youshouge513.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,youweiprint.com,🛑 全球拦截
  - DOMAIN-SUFFIX,youwugong.jobui.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,youxingtx.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,youyoumw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ypa.focusoftime.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ypmob.com,🛑 全球拦截
@@ -6290,6 +6477,7 @@ rules:
  - DOMAIN-SUFFIX,zcand.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zcrtd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zdovrb.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,zdryg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zencu.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zenwq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zeroao.cn,🛑 全球拦截
@@ -6314,6 +6502,7 @@ rules:
  - DOMAIN-SUFFIX,zgunion.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zgyemy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhaibei112.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,zhaiqichao.top,🛑 全球拦截
  - DOMAIN-SUFFIX,zhangbaochang.top,🛑 全球拦截
  - DOMAIN-SUFFIX,zhangdujia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhangjunying.top,🛑 全球拦截
@@ -6323,6 +6512,7 @@ rules:
  - DOMAIN-SUFFIX,zhangyiqian.top,🛑 全球拦截
  - DOMAIN-SUFFIX,zhanjiangletian.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhanlan5.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,zhaosijie.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhaoyafang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhcps.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhekoudajie.com,🛑 全球拦截
@@ -6334,6 +6524,8 @@ rules:
  - DOMAIN-SUFFIX,zhide-edu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhihei.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhihu.xmcimg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,zhihuizeyuan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,zhimeihui.fun,🛑 全球拦截
  - DOMAIN-SUFFIX,zhimengweike.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhinengap.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhinengcd.cn,🛑 全球拦截
@@ -6355,6 +6547,7 @@ rules:
  - DOMAIN-SUFFIX,zhongwangmy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhongzk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhouqin520.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,zhpxkl.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhuangzhaibancai.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhuanquxian.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhuanyule.cn,🛑 全球拦截
@@ -6404,6 +6597,7 @@ rules:
  - DOMAIN-SUFFIX,zqsbnfh.top,🛑 全球拦截
  - DOMAIN-SUFFIX,zqscript.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zqwlkj.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,zrbn.ltd,🛑 全球拦截
  - DOMAIN-SUFFIX,zrmxswrl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zsdexun.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zsjyc.top,🛑 全球拦截
@@ -6412,6 +6606,7 @@ rules:
  - DOMAIN-SUFFIX,zswinwin.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,zswph.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zt2088.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ztffac.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ztidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ztvx8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ztxbd.com,🛑 全球拦截
@@ -6426,6 +6621,7 @@ rules:
  - DOMAIN-SUFFIX,zwenhan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zwhkug.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zwkssb.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,zwrj999.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zwwl.shop,🛑 全球拦截
  - DOMAIN-SUFFIX,zwychain.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zxglpj.cn,🛑 全球拦截
@@ -6448,6 +6644,7 @@ rules:
  - DOMAIN-SUFFIX,zyzjpx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zzbaowen.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zzcgw.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,zzcharming.top,🛑 全球拦截
  - DOMAIN-SUFFIX,zzchuy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zzhszj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zzkoubei.com,🛑 全球拦截
@@ -6482,9 +6679,12 @@ rules:
  - IP-CIDR,136.0.56.196/32,🛑 全球拦截,no-resolve
  - IP-CIDR,146.148.85.61/32,🛑 全球拦截,no-resolve
  - IP-CIDR,154.196.143.171/32,🛑 全球拦截,no-resolve
+ - IP-CIDR,156.246.162.2/32,🛑 全球拦截,no-resolve
  - IP-CIDR,163.197.136.33/32,🛑 全球拦截,no-resolve
  - IP-CIDR,163.197.167.236/32,🛑 全球拦截,no-resolve
  - IP-CIDR,164.155.185.254/32,🛑 全球拦截,no-resolve
+ - IP-CIDR,172.121.4.251/32,🛑 全球拦截,no-resolve
+ - IP-CIDR,172.121.4.252/32,🛑 全球拦截,no-resolve
  - IP-CIDR,174.139.53.195/32,🛑 全球拦截,no-resolve
  - IP-CIDR,180.76.171.28/32,🛑 全球拦截,no-resolve
  - IP-CIDR,211.167.105.131/32,🛑 全球拦截,no-resolve
@@ -6576,6 +6776,7 @@ rules:
  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co.uk,🚀 节点选择
+ - DOMAIN-SUFFIX,bidi.net.uk,🚀 节点选择
  - DOMAIN,gamer-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
@@ -8056,3 +8257,4 @@ rules:
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
  - GEOIP,CN,🎯 全球直连
+ - MATCH,🐟 漏网之鱼
