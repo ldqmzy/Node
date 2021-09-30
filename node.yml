@@ -314,7 +314,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - DIRECT
       - 🐿️United StatesUS_1
       - 🐿️United StatesUS_2
       - 🐿️United StatesUS_3
