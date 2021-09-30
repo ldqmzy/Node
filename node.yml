@@ -5,41 +5,620 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: '🐿️United StatesUS_1', server: 173.82.160.210, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_2', server: 173.82.160.202, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_3', server: 198.52.116.250, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_4', server: 173.82.160.42, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_5', server: 173.82.160.242, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_6', server: 173.82.160.178, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_7', server: 173.82.160.114, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_8', server: 198.52.116.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_9', server: 173.82.160.122, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_10', server: 173.82.160.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_11', server: 173.82.160.50, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_12', server: 198.52.116.226, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_13', server: 173.82.160.250, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_14', server: 173.82.160.106, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_15', server: 173.82.160.186, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_16', server: 154.9.205.124, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesUS_17', server: 154.9.205.121, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️Hong KongHK_18', server: 172.93.188.156, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️Hong KongHK_19', server: 172.93.188.155, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️Hong KongHK_20', server: 40.83.74.21, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_21', server: 154.17.2.94, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: pAYSRyxZ8u5jga72qC8RaynlFXlCcADYDazDOZ3Sp49FxwICeeO0B6TN33SKE3}
+  - {name: '🐿️United StatesCA_22', server: 154.17.2.8, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_23', server: 154.17.2.50, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: ZeYOCKxB8uqjgpn36e8F4ClDCywR2YTFxDAZ57AyE3N9aDaaSOz3lI03pSRXcS}
+  - {name: '🐿️United StatesCA_24', server: 154.17.2.82, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: aAAeCKFBD25jgCRSZlN34pCDaXwlOYzxc63x3R8TZYe8qS0an79SF3DEOyupyI}
+  - {name: '🐿️United StatesCA_25', server: 154.17.2.141, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_26', server: 154.17.2.101, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Bn9CRACZRXlN8jAZ6y8wDl30FEcSO5Oag3Sexp7aT3eYCayFYqDIpSxu342zDK}
+  - {name: '🐿️United StatesCA_27', server: 154.17.2.51, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_28', server: 154.17.5.142, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_29', server: 154.17.2.111, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: ZCYFnKlyAu9jpO73aqAR4c3DaeCSOYzaSFlDEg83p6SRN52T0ZyXexw8I3CBDx}
+  - {name: '🐿️United StatesCA_30', server: 154.17.23.132, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: T39IFKxB8u5jOp7D6A83na3D2AwSFYzpayqelRSDREZ3ClNySaxZOCXe4Yc0Cg}
+  - {name: '🐿️United StatesCA_31', server: 154.17.2.13, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_32', server: 154.17.2.170, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_33', server: 154.17.2.120, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_34', server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: ZEYSaKlBZleNgF7n6e8O4y3DaD9SRpzCuSapRYjAXCxFxwcCq2T583ADI3yO30}
+  - {name: '🐿️United StatesCA_35', server: 154.17.5.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_36', server: 154.17.2.35, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: 9OZSFE2CRuCjxNlF6e8Dly3DSXwSyYzRp3c0x7pa48IYKT5eng3AD3BaCaqOZA}
+  - {name: '🐿️United StatesCA_37', server: 154.17.2.36, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_38', server: 154.17.2.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_39', server: 154.17.2.137, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United StatesCA_40', server: 154.17.2.37, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: FxxqDDagY8Celw3auRyZT526nCZO39EYKASSFBz43lcp83OaCSjDe7XARy0pIN}
+  - {name: '🐿️GermanyDE_41', server: 31.22.110.231, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️GermanyDE_42', server: 31.22.110.233, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️GermanyDE_43', server: 31.22.110.232, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_44', server: 23.106.248.36, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_45', server: 23.106.254.235, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_46', server: 23.106.252.208, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_47', server: 23.106.248.94, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_48', server: 23.106.248.98, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_49', server: 23.106.249.104, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_50', server: 23.106.254.208, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_51', server: 23.106.254.250, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_52', server: 23.106.248.48, port: 18341, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_53', server: 23.106.248.92, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_54', server: 23.106.248.97, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_55', server: 23.106.248.11, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_56', server: 103.145.20.39, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_57', server: 23.106.254.220, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_58', server: 23.106.248.91, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_59', server: 23.108.99.207, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_60', server: 23.106.248.101, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_61', server: 23.106.254.237, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_62', server: 209.58.179.201, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️SingaporeSG_63', server: 23.106.254.199, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_64', server: 154.17.31.177, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_65', server: 103.117.103.186, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_66', server: 193.110.201.186, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_67', server: 193.110.203.95, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_68', server: 193.110.201.75, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_69', server: 103.117.103.189, port: 42202, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_70', server: 103.117.103.180, port: 18341, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_71', server: 193.110.201.191, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_72', server: 154.17.31.174, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_73', server: 154.17.31.173, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_74', server: 193.110.201.215, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_75', server: 193.110.201.77, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_76', server: 103.117.101.247, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_77', server: 103.117.102.215, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_78', server: 154.17.31.176, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_79', server: 193.110.201.100, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_80', server: 103.117.103.126, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_81', server: 193.110.201.78, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_82', server: 154.17.31.175, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️South KoreaKR_83', server: 193.110.203.37, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_84', server: 154.17.2.123, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_85', server: 154.17.28.57, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_86', server: 154.17.4.26, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_87', server: 154.17.24.229, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_88', server: 154.17.24.168, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_89', server: 154.17.28.67, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_90', server: 154.17.28.136, port: 18340, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_91', server: 154.17.24.230, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_92', server: 154.17.24.233, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_93', server: 154.17.22.215, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_94', server: 154.17.20.215, port: 42203, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_95', server: 154.17.23.131, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_96', server: 154.17.23.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_97', server: 154.17.24.167, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_98', server: 154.17.24.165, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_99', server: 154.17.28.59, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_100', server: 154.17.24.164, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_101', server: 154.17.24.231, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️JapanJP_102', server: 154.17.22.153, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️TaiwanTW_103', server: 175.98.194.198, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️TaiwanTW_104', server: 175.98.194.146, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️TaiwanTW_105', server: 175.98.194.13, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️TaiwanTW_106', server: 175.98.194.54, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United KingdomGB_107', server: 154.17.7.242, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United KingdomGB_108', server: 154.17.6.237, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United KingdomGB_109', server: 154.17.6.12, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United KingdomGB_110', server: 154.17.3.89, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️United KingdomGB_111', server: 154.17.5.243, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️NetherlandsNL_112', server: 154.17.20.219, port: 42205, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️NetherlandsNL_113', server: 154.17.3.119, port: 18342, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️NetherlandsNL_114', server: 154.17.22.156, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️FranceFR_115', server: 35.180.121.110, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️FranceFR_116', server: 13.37.153.115, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🐿️FranceFR_117', server: 15.237.139.119, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea5_118', server: 103.117.103.126, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States12_119', server: 173.82.160.42, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States13_120', server: 198.52.116.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States10_121', server: 198.52.116.250, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States8_122', server: 173.82.160.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea15_123', server: 103.117.102.215, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States9_124', server: 198.52.116.226, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States4_125', server: 173.82.160.250, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States2_126', server: 173.82.160.122, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States7_127', server: 173.82.160.114, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States14_128', server: 173.82.160.178, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States2_129', server: 154.17.2.132, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States15_130', server: 154.17.2.36, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States19_131', server: 154.17.2.127, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States5_132', server: 154.17.2.8, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States11_133', server: 154.17.2.51, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States10\_134', server: 154.17.2.178, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States10_135', server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇨🇳 Taiwan1_136', server: 175.98.194.198, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States1_137', server: 173.82.160.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States5_138', server: 173.82.160.42, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States11_139', server: 172.252.64.53, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States4_140', server: 198.52.116.250, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States17_141', server: 172.252.99.29, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States12_142', server: 173.82.160.186, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States10 2_143', server: 173.82.160.210, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇨🇳 Taiwan2_144', server: 175.98.194.51, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇰🇷 South Korea13_145', server: 103.117.103.126, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇰🇷 South Korea8_146', server: 103.117.103.145, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇰🇷 South Korea2_147', server: 193.110.201.77, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States8_148', server: 173.82.160.106, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States13_149', server: 198.52.116.226, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States4 2_150', server: 172.252.99.13, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇰🇷 South Korea10_151', server: 154.17.31.174, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇰🇷 South Korea12_152', server: 103.117.102.215, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇺🇸 United States14_153', server: 198.52.116.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '🇰🇷 South Korea7_154', server: 154.17.31.173, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea1_1', server: 154.17.31.177, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea2_2', server: 154.17.31.173, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea3_3', server: 193.110.201.100, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea4_4', server: 193.110.201.185, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea5_5', server: 154.17.31.176, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea6_6', server: 103.117.103.145, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea7_7', server: 193.110.201.78, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea8_8', server: 154.17.31.175, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea9_9', server: 154.17.31.174, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea10_10', server: 103.117.103.186, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea11_11', server: 193.110.201.77, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea12_12', server: 103.117.102.215, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South+Korea13_13', server: 103.117.103.126, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States1_14', server: 173.82.160.210, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States2_15', server: 173.82.160.106, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States3_16', server: 173.82.160.50, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States4_17', server: 198.52.116.250, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States5_18', server: 173.82.160.178, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States6_19', server: 173.82.160.114, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States7_20', server: 198.52.116.226, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States8_21', server: 173.82.160.202, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States9_22', server: 173.82.160.42, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States10_23', server: 198.52.116.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States11_24', server: 173.82.160.186, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States12_25', server: 173.82.160.74, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States13_26', server: 173.82.160.122, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States14_27', server: 173.82.160.250, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States1_28', server: 154.17.1.245, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States2_29', server: 154.17.1.177, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States3_30', server: 154.17.23.132, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States4_31', server: 154.17.2.101, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States5_32', server: 154.17.2.47, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States6_33', server: 154.17.2.56, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States7_34', server: 154.17.2.82, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States8_35', server: 154.17.2.120, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States9_36', server: 154.17.2.19, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States10_37', server: 154.17.2.111, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States11_38', server: 154.17.2.64, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States12_39', server: 154.17.2.141, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States13_40', server: 154.17.2.33, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States14_41', server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States15_42', server: 154.17.2.137, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States16_43', server: 154.17.2.130, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States17_44', server: 154.17.5.142, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States18_45', server: 154.17.2.35, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States19_46', server: 154.17.2.132, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+States20_47', server: 154.17.2.95, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Germany1_48', server: 31.22.110.235, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Germany2_49', server: 31.22.110.232, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Germany3_50', server: 31.22.110.234, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Germany4_51', server: 31.22.110.231, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Germany5_52', server: 31.22.110.233, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore1_53', server: 23.106.254.194, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore2_54', server: 23.106.248.33, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore3_55', server: 23.106.254.235, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore4_56', server: 23.106.248.99, port: 42205, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore5_57', server: 23.106.254.251, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore6_58', server: 23.106.248.11, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore7_59', server: 23.106.248.92, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore8_60', server: 23.106.248.97, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore9_61', server: 23.106.248.48, port: 18341, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore10_62', server: 23.106.248.100, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore11_63', server: 23.106.252.208, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore12_64', server: 23.106.254.250, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore13_65', server: 23.106.248.98, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore14_66', server: 23.108.99.207, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore15_67', server: 23.106.248.91, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore16_68', server: 209.58.179.201, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore17_69', server: 23.106.249.104, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore18_70', server: 23.106.248.101, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore19_71', server: 23.106.254.217, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Singapore20_72', server: 103.145.20.39, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan1_73', server: 154.17.24.167, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan2_74', server: 154.17.28.57, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan3_75', server: 154.17.28.67, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan4_76', server: 154.17.18.178, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan5_77', server: 154.17.7.241, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan6_78', server: 154.17.24.165, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan7_79', server: 154.17.24.229, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan8_80', server: 154.17.4.26, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan9_81', server: 154.17.28.136, port: 18340, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan10_82', server: 154.17.2.123, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan11_83', server: 154.17.20.215, port: 42203, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan12_84', server: 154.17.24.233, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan13_85', server: 154.17.7.232, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan14_86', server: 154.17.24.230, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan15_87', server: 154.17.24.231, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan16_88', server: 154.17.28.59, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan17_89', server: 154.17.24.168, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan18_90', server: 154.17.23.133, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Japan19_91', server: 154.17.22.153, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Taiwan1_92', server: 175.98.194.51, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+Kingdom1_93', server: 154.17.3.89, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+Kingdom2_94', server: 154.17.6.237, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+Kingdom3_95', server: 154.17.6.12, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+Kingdom4_96', server: 154.17.5.243, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United+Kingdom5_97', server: 154.17.7.242, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'France1_98', server: 15.237.139.119, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'France2_99', server: 35.180.121.110, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'France3_100', server: 13.37.153.115, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United Kingdom1_255', server: 23.106.33.183, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United Kingdom2_256', server: 23.106.33.156, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States3_257', server: 172.252.99.24, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States4_258', server: 172.252.99.26, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States5_259', server: 172.252.99.20, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States6_260', server: 172.252.64.56, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States7_261', server: 172.252.64.58, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States8_262', server: 172.252.64.46, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States9_263', server: 172.252.64.48, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United Kingdom10_264', server: 23.106.33.152, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United Kingdom11_265', server: 23.106.35.90, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States12_266', server: 172.252.99.16, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States13_267', server: 172.252.64.50, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States14_268', server: 172.252.64.44, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States15_269', server: 172.252.64.49, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States16_270', server: 172.252.64.45, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States17_271', server: 172.252.99.17, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States18_272', server: 172.252.99.22, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States19_273', server: 172.252.64.41, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States20_274', server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Hong Kong21_275', server: 172.93.188.155, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Hong Kong22_276', server: 172.93.188.156, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Hong Kong23_277', server: 40.83.74.21, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States24_278', server: 154.9.205.121, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States25_279', server: 154.9.205.124, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea1_280', server: 154.17.31.177, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea2_281', server: 193.110.201.78, port: 42200, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea3_282', server: 154.17.31.175, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea4_283', server: 154.17.31.174, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea5_284', server: 154.17.31.173, port: 18338, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea6_285', server: 103.117.103.186, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea7_286', server: 193.110.201.100, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea8_287', server: 154.17.31.176, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea9_288', server: 193.110.201.185, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea10_289', server: 193.110.201.77, port: 18337, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea11_290', server: 103.117.103.145, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea12_291', server: 103.117.102.215, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'South Korea13_292', server: 103.117.103.126, port: 18339, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Hong Kong14_293', server: 172.93.188.155, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Hong Kong15_294', server: 172.93.188.156, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'Hong Kong16_295', server: 40.83.74.21, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States17_296', server: 154.9.205.121, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 'United States18_297', server: 154.9.205.124, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 295, server: 23.224.164.102, port: 443, type: vmess, uuid: 3de11753-9cec-4b4a-b5c5-47aa2dffb409, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.09025120.xyz}}
-  - {name: 121, server: 23.224.31.212, port: 443, type: vmess, uuid: d0e22005-b9fe-4bbc-81a3-27c52d4927a4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.53933374.xyz}}
   - {name: 227, server: 23.224.31.42, port: 443, type: vmess, uuid: 2278efe4-ad0c-47ce-9480-068608368d76, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.44467269.xyz}}
   - {name: 270, server: 23.224.158.173, port: 443, type: vmess, uuid: 85d99164-4b46-487d-920e-df2e523a50c5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.58245542.xyz}}
   - {name: 210, server: 154.84.1.90, port: 443, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.94226049.xyz}}
   - {name: 206, server: 154.84.1.54, port: 443, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.04887294.xyz}}
   - {name: 208, server: 46.182.107.134, port: 443, type: vmess, uuid: 6fa560d4-35c5-4968-adfc-812c52878b84, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.57027846.xyz}}
   - {name: 135, server: 198.2.201.174, port: 443, type: vmess, uuid: ac9d75fa-cdf8-4ace-8012-3fcd9bc989b9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.82582796.xyz}}
-  - {name: m3.mogu66.com:227, server: m3.mogu66.com, port: 227, type: ss, cipher: aes-128-gcm, password: 89ENCWc6}
-  - {name: m3.mogu66.com:226, server: m3.mogu66.com, port: 226, type: ss, cipher: aes-128-gcm, password: EkZk5PG1}
-  - {name: m3.mogu66.com:234, server: m3.mogu66.com, port: 234, type: ss, cipher: aes-128-gcm, password: 7vaTvbYz}
-  - {name: m8.mogu66.com:221, server: m8.mogu66.com, port: 221, type: ss, cipher: aes-128-gcm, password: R6dCeQQk}
-  - {name: m8.mogu66.com:214, server: m8.mogu66.com, port: 214, type: ss, cipher: aes-128-gcm, password: KeiupRlU}
-  - {name: m8.mogu66.com:218, server: m8.mogu66.com, port: 218, type: ss, cipher: aes-128-gcm, password: 0nR0TxL2}
-  - {name: m8.mogu66.com:216, server: m8.mogu66.com, port: 216, type: ss, cipher: aes-128-gcm, password: pWKf5aUA}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
+      - DIRECT
+      - 🐿️United StatesUS_1
+      - 🐿️United StatesUS_2
+      - 🐿️United StatesUS_3
+      - 🐿️United StatesUS_4
+      - 🐿️United StatesUS_5
+      - 🐿️United StatesUS_6
+      - 🐿️United StatesUS_7
+      - 🐿️United StatesUS_8
+      - 🐿️United StatesUS_9
+      - 🐿️United StatesUS_10
+      - 🐿️United StatesUS_11
+      - 🐿️United StatesUS_12
+      - 🐿️United StatesUS_13
+      - 🐿️United StatesUS_14
+      - 🐿️United StatesUS_15
+      - 🐿️United StatesUS_16
+      - 🐿️United StatesUS_17
+      - 🐿️Hong KongHK_18
+      - 🐿️Hong KongHK_19
+      - 🐿️Hong KongHK_20
+      - 🐿️United StatesCA_21
+      - 🐿️United StatesCA_22
+      - 🐿️United StatesCA_23
+      - 🐿️United StatesCA_24
+      - 🐿️United StatesCA_25
+      - 🐿️United StatesCA_26
+      - 🐿️United StatesCA_27
+      - 🐿️United StatesCA_28
+      - 🐿️United StatesCA_29
+      - 🐿️United StatesCA_30
+      - 🐿️United StatesCA_31
+      - 🐿️United StatesCA_32
+      - 🐿️United StatesCA_33
+      - 🐿️United StatesCA_34
+      - 🐿️United StatesCA_35
+      - 🐿️United StatesCA_36
+      - 🐿️United StatesCA_37
+      - 🐿️United StatesCA_38
+      - 🐿️United StatesCA_39
+      - 🐿️United StatesCA_40
+      - 🐿️GermanyDE_41
+      - 🐿️GermanyDE_42
+      - 🐿️GermanyDE_43
+      - 🐿️SingaporeSG_44
+      - 🐿️SingaporeSG_45
+      - 🐿️SingaporeSG_46
+      - 🐿️SingaporeSG_47
+      - 🐿️SingaporeSG_48
+      - 🐿️SingaporeSG_49
+      - 🐿️SingaporeSG_50
+      - 🐿️SingaporeSG_51
+      - 🐿️SingaporeSG_52
+      - 🐿️SingaporeSG_53
+      - 🐿️SingaporeSG_54
+      - 🐿️SingaporeSG_55
+      - 🐿️SingaporeSG_56
+      - 🐿️SingaporeSG_57
+      - 🐿️SingaporeSG_58
+      - 🐿️SingaporeSG_59
+      - 🐿️SingaporeSG_60
+      - 🐿️SingaporeSG_61
+      - 🐿️SingaporeSG_62
+      - 🐿️SingaporeSG_63
+      - 🐿️South KoreaKR_64
+      - 🐿️South KoreaKR_65
+      - 🐿️South KoreaKR_66
+      - 🐿️South KoreaKR_67
+      - 🐿️South KoreaKR_68
+      - 🐿️South KoreaKR_69
+      - 🐿️South KoreaKR_70
+      - 🐿️South KoreaKR_71
+      - 🐿️South KoreaKR_72
+      - 🐿️South KoreaKR_73
+      - 🐿️South KoreaKR_74
+      - 🐿️South KoreaKR_75
+      - 🐿️South KoreaKR_76
+      - 🐿️South KoreaKR_77
+      - 🐿️South KoreaKR_78
+      - 🐿️South KoreaKR_79
+      - 🐿️South KoreaKR_80
+      - 🐿️South KoreaKR_81
+      - 🐿️South KoreaKR_82
+      - 🐿️South KoreaKR_83
+      - 🐿️JapanJP_84
+      - 🐿️JapanJP_85
+      - 🐿️JapanJP_86
+      - 🐿️JapanJP_87
+      - 🐿️JapanJP_88
+      - 🐿️JapanJP_89
+      - 🐿️JapanJP_90
+      - 🐿️JapanJP_91
+      - 🐿️JapanJP_92
+      - 🐿️JapanJP_93
+      - 🐿️JapanJP_94
+      - 🐿️JapanJP_95
+      - 🐿️JapanJP_96
+      - 🐿️JapanJP_97
+      - 🐿️JapanJP_98
+      - 🐿️JapanJP_99
+      - 🐿️JapanJP_100
+      - 🐿️JapanJP_101
+      - 🐿️JapanJP_102
+      - 🐿️TaiwanTW_103
+      - 🐿️TaiwanTW_104
+      - 🐿️TaiwanTW_105
+      - 🐿️TaiwanTW_106
+      - 🐿️United KingdomGB_107
+      - 🐿️United KingdomGB_108
+      - 🐿️United KingdomGB_109
+      - 🐿️United KingdomGB_110
+      - 🐿️United KingdomGB_111
+      - 🐿️NetherlandsNL_112
+      - 🐿️NetherlandsNL_113
+      - 🐿️NetherlandsNL_114
+      - 🐿️FranceFR_115
+      - 🐿️FranceFR_116
+      - 🐿️FranceFR_117
+      - South+Korea5_118
+      - United+States12_119
+      - United+States13_120
+      - United+States10_121
+      - United+States8_122
+      - South+Korea15_123
+      - United+States9_124
+      - United+States4_125
+      - United+States2_126
+      - United+States7_127
+      - United+States14_128
+      - United+States2_129
+      - United+States15_130
+      - United+States19_131
+      - United+States5_132
+      - United+States11_133
+      - United+States10\_134
+      - 🇺🇸 United States10_135
+      - 🇨🇳 Taiwan1_136
+      - 🇺🇸 United States1_137
+      - 🇺🇸 United States5_138
+      - 🇺🇸 United States11_139
+      - 🇺🇸 United States4_140
+      - 🇺🇸 United States17_141
+      - 🇺🇸 United States12_142
+      - 🇺🇸 United States10 2_143
+      - 🇨🇳 Taiwan2_144
+      - 🇰🇷 South Korea13_145
+      - 🇰🇷 South Korea8_146
+      - 🇰🇷 South Korea2_147
+      - 🇺🇸 United States8_148
+      - 🇺🇸 United States13_149
+      - 🇺🇸 United States4 2_150
+      - 🇰🇷 South Korea10_151
+      - 🇰🇷 South Korea12_152
+      - 🇺🇸 United States14_153
+      - 🇰🇷 South Korea7_154
+      - South+Korea1_1
+      - South+Korea2_2
+      - South+Korea3_3
+      - South+Korea4_4
+      - South+Korea5_5
+      - South+Korea6_6
+      - South+Korea7_7
+      - South+Korea8_8
+      - South+Korea9_9
+      - South+Korea10_10
+      - South+Korea11_11
+      - South+Korea12_12
+      - South+Korea13_13
+      - United+States1_14
+      - United+States2_15
+      - United+States3_16
+      - United+States4_17
+      - United+States5_18
+      - United+States6_19
+      - United+States7_20
+      - United+States8_21
+      - United+States9_22
+      - United+States10_23
+      - United+States11_24
+      - United+States12_25
+      - United+States13_26
+      - United+States14_27
+      - United+States1_28
+      - United+States2_29
+      - United+States3_30
+      - United+States4_31
+      - United+States5_32
+      - United+States6_33
+      - United+States7_34
+      - United+States8_35
+      - United+States9_36
+      - United+States10_37
+      - United+States11_38
+      - United+States12_39
+      - United+States13_40
+      - United+States14_41
+      - United+States15_42
+      - United+States16_43
+      - United+States17_44
+      - United+States18_45
+      - United+States19_46
+      - United+States20_47
+      - Germany1_48
+      - Germany2_49
+      - Germany3_50
+      - Germany4_51
+      - Germany5_52
+      - Singapore1_53
+      - Singapore2_54
+      - Singapore3_55
+      - Singapore4_56
+      - Singapore5_57
+      - Singapore6_58
+      - Singapore7_59
+      - Singapore8_60
+      - Singapore9_61
+      - Singapore10_62
+      - Singapore11_63
+      - Singapore12_64
+      - Singapore13_65
+      - Singapore14_66
+      - Singapore15_67
+      - Singapore16_68
+      - Singapore17_69
+      - Singapore18_70
+      - Singapore19_71
+      - Singapore20_72
+      - Japan1_73
+      - Japan2_74
+      - Japan3_75
+      - Japan4_76
+      - Japan5_77
+      - Japan6_78
+      - Japan7_79
+      - Japan8_80
+      - Japan9_81
+      - Japan10_82
+      - Japan11_83
+      - Japan12_84
+      - Japan13_85
+      - Japan14_86
+      - Japan15_87
+      - Japan16_88
+      - Japan17_89
+      - Japan18_90
+      - Japan19_91
+      - Taiwan1_92
+      - United+Kingdom1_93
+      - United+Kingdom2_94
+      - United+Kingdom3_95
+      - United+Kingdom4_96
+      - United+Kingdom5_97
+      - France1_98
+      - France2_99
+      - France3_100
+      - United Kingdom1_255
+      - United Kingdom2_256
+      - United States3_257
+      - United States4_258
+      - United States5_259
+      - United States6_260
+      - United States7_261
+      - United States8_262
+      - United States9_263
+      - United Kingdom10_264
+      - United Kingdom11_265
+      - United States12_266
+      - United States13_267
+      - United States14_268
+      - United States15_269
+      - United States16_270
+      - United States17_271
+      - United States18_272
+      - United States19_273
+      - United States20_274
+      - Hong Kong21_275
+      - Hong Kong22_276
+      - Hong Kong23_277
+      - United States24_278
+      - United States25_279
+      - South Korea1_280
+      - South Korea2_281
+      - South Korea3_282
+      - South Korea4_283
+      - South Korea5_284
+      - South Korea6_285
+      - South Korea7_286
+      - South Korea8_287
+      - South Korea9_288
+      - South Korea10_289
+      - South Korea11_290
+      - South Korea12_291
+      - South Korea13_292
+      - Hong Kong14_293
+      - Hong Kong15_294
+      - Hong Kong16_295
+      - United States17_296
+      - United States18_297
       - 295
-      - 121
       - 227
       - 270
       - 210
       - 206
       - 208
       - 135
-      - m3.mogu66.com:227
-      - m3.mogu66.com:226
-      - m3.mogu66.com:234
-      - m8.mogu66.com:221
-      - m8.mogu66.com:214
-      - m8.mogu66.com:218
-      - m8.mogu66.com:216
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
