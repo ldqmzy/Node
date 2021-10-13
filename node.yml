@@ -52,7 +52,7 @@ proxies:
   - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_6718, server: jp02cf.v2cdn.org, port: 443, type: vmess, uuid: 02E5AC2F-E5AE-F365-0AE0-727A5F3525AE, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: jp02cf.v2cdn.org}}
   - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_16768, server: usml.52jjy.top, port: 88, type: vmess, uuid: cb6273ad-5837-4c65-92e8-07daf9beb777, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyunml, ws-headers: {Host: usml.52jjy.top}}
   - {name: 🇨🇳 CN_1997, server: 1.116.69.199, port: 80, type: vmess, uuid: ee556196-11dd-3cc3-98ef-de8052c499ed, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
- proxy-groups:
+proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
