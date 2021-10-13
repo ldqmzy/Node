@@ -55,6 +55,7 @@ proxies:
   proxy-groups:
   - name: 🚀 节点选择
     type: select
+    proxies:
       - DIRECT
       - 🇯🇵 28 日本 TG@freeyule
       - 🇺🇸 93 美国 TG@xxqun
