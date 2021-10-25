@@ -5,105 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 28 日本 TG@freeyule, server: jp1.xh.qjnodeip.xyz, port: 80, type: vmess, uuid: 65a6e3e1-8f89-3484-a52d-36433031004b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: jp1.xh.qjnodeip.xyz}}
-  - {name: 🇺🇸 93 美国 TG@xxqun, server: us1.np.qjnodeip.xyz, port: 10018, type: vmess, uuid: 0472431a-96bc-4a64-ae6a-fccdd75333fc, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇷🇺 36 俄罗斯 TG@freeyule, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
-  - {name: 🇷🇺 39 俄罗斯 TG@freeyule, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
-  - {name: 🇷🇺 31 俄罗斯 TG@freeyule, server: ruml.jjyun.ren, port: 80, type: vmess, uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
-  - {name: 🇷🇺 34 俄罗斯 TG@freeyule, server: ruml.jjyun.ren, port: 80, type: vmess, uuid: cb6273ad-5837-4c65-92e8-07daf9beb777, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
-  - {name: 🇷🇺 37 俄罗斯 TG@freeyule, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 56a60bab-bcb5-4408-a956-59cb9987a784, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
-  - {name: 🇺🇸 94 美国 TG@xxqun, server: us1.np.qjnodeip.xyz, port: 10018, type: vmess, uuid: 2d2a3011-8e42-4542-bdbd-fae085fe22e1, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 110 美国 TG@xxqun, server: usgia.jjyun.ren, port: 88, type: vmess, uuid: c8191e5d-c551-4896-8d57-7493da874557, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usgia.jjyun.ren}}
-  - {name: 🇺🇸 98 美国 TG@xxqun, server: us1.np.qjnodeip.xyz, port: 10018, type: vmess, uuid: 965dac48-431d-499a-8cf0-d34640ff7987, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇭🇰 13 香港 TG@shoucangAV, server: hkml.jjyun.ren, port: 88, type: vmess, uuid: 190ee9db-85d6-438c-88a2-a62a4cc4c8a3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: hkml.jjyun.ren}}
-  - {name: SWE 🇸🇪 Stockholm 1, server: 185.76.9.34, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 106 美国 TG@xxqun, server: usgia.jjyun.ren, port: 88, type: vmess, uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usgia.jjyun.ren}}
-  - {name: FRA 🇫🇷 Bordeaux, server: 185.108.106.140, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇺 RUS 🇷🇺 Moscow 2, server: 92.38.138.143, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 112 美国 TG@xxqun, server: usgia.jjyun.ren, port: 88, type: vmess, uuid: cb6273ad-5837-4c65-92e8-07daf9beb777, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: usgia.jjyun.ren}}
-  - {name: 🇺🇸 USA 🇺🇸 Latham 2, server: 45.43.19.82, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇺 41 俄罗斯 TG@freeyule, server: ruml.jjyun.ren, port: 88, type: vmess, uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ruml.jjyun.ren}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇭🇰HK_16748, server: hk1.v2.qjnodeip.xyz, port: 23333, type: vmess, uuid: 02E5AC2F-E5AE-F365-0AE0-727A5F3525AE, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1979, server: zfd.out04.nodeserver.top, port: 16230, type: vmess, uuid: b07b19c1-9ee9-3796-8690-cb09f9646ae0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1875, server: 120.240.86.41, port: 16104, type: vmess, uuid: b07b19c1-9ee9-3796-8690-cb09f9646ae0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1880, server: 120.240.86.26, port: 16217, type: vmess, uuid: b07b19c1-9ee9-3796-8690-cb09f9646ae0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_2024, server: 120.240.86.26, port: 16111, type: vmess, uuid: b07b19c1-9ee9-3796-8690-cb09f9646ae0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2005, server: zfd.out01.nodeserver.top, port: 16227, type: vmess, uuid: b07b19c1-9ee9-3796-8690-cb09f9646ae0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_1960, server: zfd.out02.nodeserver.top, port: 16232, type: vmess, uuid: b07b19c1-9ee9-3796-8690-cb09f9646ae0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_1989, server: 120.240.86.51, port: 16127, type: vmess, uuid: b07b19c1-9ee9-3796-8690-cb09f9646ae0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2009, server: us1.np.qjnodeip.xyz, port: 10016, type: vmess, uuid: becef0eb-ac17-4698-aec8-511965795d73, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_1922, server: gy.jjxcloud.xyz, port: 51520, type: vmess, uuid: fcd7ec54-8e19-399d-8a36-415a064b82c4, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.jjxcloud.xyz}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_16590, server: kr1.np.qjnodeip.xyz, port: 80, type: vmess, uuid: 2e4dec02-aa00-4cd0-b80c-12ee7da3e3f2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: kr1.np.qjnodeip.xyz}}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2023, server: us1.np.qjnodeip.xyz, port: 10018, type: vmess, uuid: becef0eb-ac17-4698-aec8-511965795d73, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_16680, server: 150.230.43.190, port: 80, type: vmess, uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /BEN, ws-headers: {Host: 150.230.43.190}}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_11358, server: tw1.v2.qjnodeip.xyz, port: 10086, type: vmess, uuid: 02E5AC2F-E5AE-F365-0AE0-727A5F3525AE, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_16724, server: 66.42.107.33, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 66.42.107.33}}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1897, server: us1.np.qjnodeip.xyz, port: 10018, type: vmess, uuid: 6a4c71e0-7fd6-4a2b-b377-8e96c475a02b, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_16484, server: v6.ssrsub.com, port: 158, type: vmess, uuid: 721c60a2-86a4-44c6-8f82-8fc80f6ad8ab, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v6.ssrsub.com}}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_11359, server: tw2.v2.qjnodeip.xyz, port: 8300, type: vmess, uuid: 02E5AC2F-E5AE-F365-0AE0-727A5F3525AE, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_16628, server: 18.236.146.125, port: 8888, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1898, server: us1.np.qjnodeip.xyz, port: 10016, type: vmess, uuid: c0e0c7dd-1104-448a-ac2a-276ed9a7d021, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_16626, server: 150.230.45.118, port: 80, type: vmess, uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /BEN, ws-headers: {Host: 150.230.45.118}}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_6691, server: jp06.v2net.top, port: 443, type: vmess, uuid: 02E5AC2F-E5AE-F365-0AE0-727A5F3525AE, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: jp06.v2net.top}}
-  - {name: 🇯🇵 JP_6672, server: 146.56.187.13, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 146.56.187.13}}
-  - {name: 🇺🇸 US_16682, server: 193.123.253.102, port: 80, type: vmess, uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 193.123.253.102}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_16730, server: dgyh.jjyun.ren, port: 80, type: vmess, uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyun, ws-headers: {Host: dgyh.jjyun.ren}}
-  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1900, server: zfd.out03.nodeserver.top, port: 16109, type: vmess, uuid: b07b19c1-9ee9-3796-8690-cb09f9646ae0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_6718, server: jp02cf.v2cdn.org, port: 443, type: vmess, uuid: 02E5AC2F-E5AE-F365-0AE0-727A5F3525AE, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: jp02cf.v2cdn.org}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_16768, server: usml.52jjy.top, port: 88, type: vmess, uuid: cb6273ad-5837-4c65-92e8-07daf9beb777, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /jjyunml, ws-headers: {Host: usml.52jjy.top}}
-  - {name: 🇨🇳 CN_1997, server: 1.116.69.199, port: 80, type: vmess, uuid: ee556196-11dd-3cc3-98ef-de8052c499ed, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇺🇸 美国1, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国2, server: 134.195.196.97, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国3, server: 134.195.196.97, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国4, server: 134.195.196.97, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国5, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国6, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国7, server: 134.195.198.195, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国8, server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国9, server: 64.44.42.60, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇺🇸 洛杉矶1, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 洛杉矶2, server: 172.99.190.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 洛杉矶3, server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - DIRECT
-      - 🇯🇵 28 日本 TG@freeyule
-      - 🇺🇸 93 美国 TG@xxqun
-      - 🇷🇺 36 俄罗斯 TG@freeyule
-      - 🇷🇺 39 俄罗斯 TG@freeyule
-      - 🇷🇺 31 俄罗斯 TG@freeyule
-      - 🇷🇺 34 俄罗斯 TG@freeyule
-      - 🇷🇺 37 俄罗斯 TG@freeyule
-      - 🇺🇸 94 美国 TG@xxqun
-      - 🇺🇸 110 美国 TG@xxqun
-      - 🇺🇸 98 美国 TG@xxqun
-      - 🇭🇰 13 香港 TG@shoucangAV
-      - SWE 🇸🇪 Stockholm 1
-      - 🇺🇸 106 美国 TG@xxqun
-      - FRA 🇫🇷 Bordeaux
-      - 🇷🇺 RUS 🇷🇺 Moscow 2
-      - 🇺🇸 112 美国 TG@xxqun
-      - 🇺🇸 USA 🇺🇸 Latham 2
-      - 🇷🇺 41 俄罗斯 TG@freeyule
-      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_16748
-      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1979
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1875
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_1880
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_2024
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2005
-      - 🇷🇺 Relay_🇨🇳CN-🇷🇺RU_1960
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_1989
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2009
-      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_1922
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_16590
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_2023
-      - 🇺🇸 US_16680
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_11358
-      - 🇺🇸 US_16724
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1897
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_16484
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_11359
-      - 🇺🇸 US_16628
-      - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_1898
-      - 🇺🇸 US_16626
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_6691
-      - 🇯🇵 JP_6672
-      - 🇺🇸 US_16682
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_16730
-      - 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_1900
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_6718
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_16768
-      - 🇨🇳 CN_1997
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇺🇸 美国5
+      - 🇺🇸 美国6
+      - 🇺🇸 美国7
+      - 🇺🇸 美国8
+      - 🇺🇸 美国9
+      - 🇺🇸 洛杉矶1
+      - 🇺🇸 洛杉矶2
+      - 🇺🇸 洛杉矶3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
